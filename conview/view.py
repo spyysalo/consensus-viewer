@@ -30,6 +30,20 @@ def show_document_ann(id_):
     return ann
 
 
+def _filter_by_type(standoffs, remove):
+    filtered = []
+    for s in standoffs:
+        try:
+            fields = s.split('\t')
+            type_ = fields[1].split()[0]
+            if type_ in remove:
+                continue
+        except Exception as e:
+            error(e)
+        filtered.append(s)
+    return filtered
+
+
 @bp.route('/<id_>')
 def visualize_document(id_):
     from .so2html import standoff_to_html, Standoff
@@ -57,6 +71,12 @@ def brat_visualize_document(id_):
     db = get_db()
     text = db.get('{}.txt'.format(id_), None)
     ann = db.get('{}.ann'.format(id_), None)
+    filtered = []
+    for a in ann.split('\n'):
+        if a and a[0] in 'TN':
+            filtered.append(a)
+    filtered = _filter_by_type(filtered, set(['Token']))
+    ann = '\n'.join(filtered)
     if text is None or ann is None:
         abort(404)
     return render_template('bratvis.html', text=text.replace('\n', ' '),

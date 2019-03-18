@@ -646,6 +646,10 @@ type_color_map = {
     'Chemical': '#8fcfff',
     'Species': '#ffccaa',
     'Disease': '#aaaaaa',
+    'ggp': '#7fa2ff',
+    'che': '#8fcfff',
+    'dis': '#ff9999',
+    'org': '#ffccaa',
 }
 
 
