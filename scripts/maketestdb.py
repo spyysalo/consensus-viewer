@@ -20,6 +20,7 @@ def main(argv):
         for fn in args.file:
             bn = os.path.basename(fn)
             db[bn] = open(fn).read()
+    return 0
 
 
 if __name__ == '__main__':
