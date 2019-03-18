@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>conview</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="description" content="description here"> -->
+    <link rel="root" href="TODO"/> <!-- for JS -->
+    <!-- Base jQuery-UI styles -->
+    <link rel="stylesheet" href="/static/css/jquery-ui-redmond.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <!-- CSS for embedded visualizations -->
+    <link rel="stylesheet" href="/static/css/style-vis.css">
+    <!-- head.js, required for embedding -->
+    <script type="text/javascript" src="/static/lib/ext/head.load.min.js"></script>
+  </head>
+<body>
+  <header class="site-header">
+    <div class="wrap">    
+      <a class="topnav" href="/">home</a>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="wrap">
+      <pre><code class="language-ann">{{ text }}
+{{ ann }}
+</code></pre>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p style="float:right">(c) 2019 author(s)</p>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    var root = '/static/';
+    head.js(
+        // External libraries
+        root + 'lib/ext/jquery.min.js',
+        root + 'lib/ext/jquery.svg.min.js',
+        root + 'lib/ext/jquery.svgdom.min.js',
+        root + 'lib/ext/jquery-ui.min.js',
+        root + 'lib/ext/waypoints.min.js',
+        // brat helper modules
+        root + 'lib/brat/configuration.js',
+        root + 'lib/brat/util.js',
+        root + 'lib/brat/annotation_log.js',
+        root + 'lib/ext/webfont.js',
+        // brat main modules
+        root + 'lib/brat/dispatcher.js',
+        root + 'lib/brat/url_monitor.js',
+        root + 'lib/brat/visualizer.js',
+        // external parsing libraries
+        'https://spyysalo.github.io/conllu.js/conllu.js',
+        // annotation documentation support
+        root + 'lib/local/annodoc.js',
+        // project-specific configuration
+        root + 'lib/local/config.js'
+    );
+
+    var webFontURLs = [
+	// TODO Liberation_Sans-Regular produces timeouts for whatever
+	// reason, so it's commented out for the moment.
+        // root + 'fonts/Liberation_Sans-Regular.ttf',
+        root + 'fonts/PT_Sans-Caption-Web-Regular.ttf',
+    ];
+
+    head.ready(function() {
+	// performs all embedding and support functions
+	Annodoc.activate(Config.bratCollData, []);
+    });
+  </script>
+</body>
+</html>

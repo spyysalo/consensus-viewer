@@ -1,5 +1,5 @@
 from flask import Blueprint
-from flask import abort
+from flask import render_template, abort
 
 from .db import get_db
 
@@ -50,3 +50,14 @@ def visualize_document(id_):
         norm = 'GO:0071159'    # test, fake it
         standoffs.append(Standoff(int(start), int(end), type_, norm))
     return standoff_to_html(text, standoffs, tooltips=True, links=True)
+
+
+@bp.route('/<id_>.brat')
+def brat_visualize_document(id_):
+    db = get_db()
+    text = db.get('{}.txt'.format(id_), None)
+    ann = db.get('{}.ann'.format(id_), None)
+    if text is None or ann is None:
+        abort(404)
+    return render_template('bratvis.html', text=text.replace('\n', ' '),
+                           ann=ann)
