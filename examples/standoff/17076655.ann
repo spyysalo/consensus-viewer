@@ -1,0 +1,203 @@
+T17	dis 20 39	Alzheimer's disease
+T1	Token 0 5	Alois
+T2	Token 6 15	Alzheimer
+T3	Token 16 19	and
+T4	Token 20 29	Alzheimer
+T5	Token 29 31	's
+T6	Token 32 39	disease
+T7	Token 39 40	:
+T8	Token 41 42	a
+T9	Token 43 53	centennial
+T10	Token 54 65	perspective
+T11	Token 65 66	.
+R1	nn Arg1:T2 Arg2:T1
+R2	dep Arg1:T10 Arg2:T2
+R3	nn Arg1:T6 Arg2:T4
+R4	poss Arg1:T6 Arg2:T4
+R5	conj_and Arg1:T2 Arg2:T6
+R6	dep Arg1:T10 Arg2:T6
+R7	punct Arg1:T10 Arg2:T7
+R8	det Arg1:T10 Arg2:T8
+R9	amod Arg1:T10 Arg2:T9
+R10	punct Arg1:T10 Arg2:T11
+T68	dis 188 207	Alzheimer's disease
+T69	dis 209 211	AD
+T18	Token 67 70	The
+T19	Token 71 75	year
+T20	Token 76 80	2006
+T21	Token 81 83	is
+T22	Token 84 87	the
+T23	Token 88 97	centenary
+T24	Token 98 100	of
+T25	Token 101 104	the
+T26	Token 105 111	famous
+T27	Token 112 124	presentation
+T28	Token 125 127	of
+T29	Token 128 133	Alois
+T30	Token 134 143	Alzheimer
+T31	Token 144 149	which
+T32	Token 150 155	first
+T33	Token 156 165	described
+T34	Token 166 169	the
+T35	Token 170 184	neuropathology
+T36	Token 185 187	of
+T37	Token 188 197	Alzheimer
+T38	Token 197 199	's
+T39	Token 200 207	disease
+T40	Token 208 209	(
+T41	Token 209 211	AD
+T42	Token 211 212	)
+T43	Token 212 213	.
+R11	det Arg1:T20 Arg2:T18
+R12	nn Arg1:T20 Arg2:T19
+R13	nsubj Arg1:T23 Arg2:T20
+R14	cop Arg1:T23 Arg2:T21
+R15	det Arg1:T23 Arg2:T22
+R16	nsubj Arg1:T33 Arg2:T23
+R17	det Arg1:T27 Arg2:T25
+R18	amod Arg1:T27 Arg2:T26
+R19	prep_of Arg1:T23 Arg2:T27
+R20	nn Arg1:T30 Arg2:T29
+R21	prep_of Arg1:T27 Arg2:T30
+R22	advmod Arg1:T33 Arg2:T32
+R23	rcmod Arg1:T23 Arg2:T33
+R24	det Arg1:T35 Arg2:T34
+R25	dobj Arg1:T33 Arg2:T35
+R26	nn Arg1:T39 Arg2:T37
+R27	poss Arg1:T39 Arg2:T37
+R28	possessive Arg1:T39 Arg2:T38
+R29	prep_of Arg1:T35 Arg2:T39
+R30	punct Arg1:T41 Arg2:T40
+R31	abbrev Arg1:T39 Arg2:T41
+R32	punct Arg1:T41 Arg2:T42
+R33	punct Arg1:T23 Arg2:T43
+T102	dis 303 305	AD
+T70	Token 214 219	Since
+T71	Token 220 224	this
+T72	Token 225 237	presentation
+T73	Token 237 238	,
+T74	Token 239 247	enormous
+T75	Token 248 256	progress
+T76	Token 257 260	has
+T77	Token 261 265	been
+T78	Token 266 270	made
+T79	Token 271 273	in
+T80	Token 274 287	understanding
+T81	Token 288 291	the
+T82	Token 292 299	biology
+T83	Token 300 302	of
+T84	Token 303 305	AD
+T85	Token 305 306	.
+R34	det Arg1:T72 Arg2:T71
+R35	prep_since Arg1:T78 Arg2:T72
+R36	punct Arg1:T78 Arg2:T73
+R37	nn Arg1:T75 Arg2:T74
+R38	nsubjpass Arg1:T78 Arg2:T75
+R39	aux Arg1:T78 Arg2:T76
+R40	auxpass Arg1:T78 Arg2:T77
+R41	prepc_in Arg1:T78 Arg2:T80
+R42	det Arg1:T82 Arg2:T81
+R43	dobj Arg1:T80 Arg2:T82
+R44	prep_of Arg1:T82 Arg2:T84
+R45	punct Arg1:T78 Arg2:T85
+T158	dis 383 385	AD
+T159	ggp 331 351	beta-amyloid protein
+T160	ggp 353 358	Abeta
+T103	Token 307 310	The
+T104	Token 311 318	central
+T105	Token 319 323	role
+T106	Token 324 326	of
+T107	Token 327 330	the
+T108	Token 331 343	beta-amyloid
+T109	Token 344 351	protein
+T110	Token 352 353	(
+T111	Token 353 358	Abeta
+T112	Token 358 359	)
+T113	Token 360 362	in
+T114	Token 363 366	the
+T115	Token 367 379	pathogenesis
+T116	Token 380 382	of
+T117	Token 383 385	AD
+T118	Token 386 389	and
+T119	Token 390 393	the
+T120	Token 394 406	relationship
+T121	Token 407 414	between
+T122	Token 415 421	plaque
+T123	Token 422 425	and
+T124	Token 426 432	tangle
+T125	Token 433 442	pathology
+T126	Token 443 445	is
+T127	Token 446 449	now
+T128	Token 450 454	much
+T129	Token 455 461	better
+T130	Token 462 472	understood
+T131	Token 472 473	.
+R46	det Arg1:T105 Arg2:T103
+R47	amod Arg1:T105 Arg2:T104
+R48	nsubjpass Arg1:T130 Arg2:T105
+R49	det Arg1:T109 Arg2:T107
+R50	nn Arg1:T109 Arg2:T108
+R51	prep_of Arg1:T105 Arg2:T109
+R52	punct Arg1:T111 Arg2:T110
+R53	appos Arg1:T109 Arg2:T111
+R54	punct Arg1:T111 Arg2:T112
+R55	det Arg1:T115 Arg2:T114
+R56	prep_in Arg1:T105 Arg2:T115
+R57	prep_of Arg1:T115 Arg2:T117
+R58	det Arg1:T120 Arg2:T119
+R59	conj_and Arg1:T105 Arg2:T120
+R60	nsubjpass Arg1:T130 Arg2:T120
+R61	prep_between Arg1:T120 Arg2:T122
+R62	nn Arg1:T125 Arg2:T124
+R63	prep_between Arg1:T120 Arg2:T125
+R64	conj_and Arg1:T122 Arg2:T125
+R65	auxpass Arg1:T130 Arg2:T126
+R66	advmod Arg1:T130 Arg2:T127
+R67	advmod Arg1:T129 Arg2:T128
+R68	advmod Arg1:T130 Arg2:T129
+R69	punct Arg1:T130 Arg2:T131
+T208	dis 549 551	AD
+T161	Token 474 476	In
+T162	Token 477 481	this
+T163	Token 482 489	article
+T164	Token 489 490	,
+T165	Token 491 493	we
+T166	Token 494 500	review
+T167	Token 501 504	the
+T168	Token 505 512	current
+T169	Token 513 519	status
+T170	Token 520 522	of
+T171	Token 523 526	the
+T172	Token 527 534	amyloid
+T173	Token 535 545	hypothesis
+T174	Token 546 548	of
+T175	Token 549 551	AD
+T176	Token 552 555	and
+T177	Token 556 559	its
+T178	Token 560 564	role
+T179	Token 565 567	in
+T180	Token 568 571	the
+T181	Token 572 583	development
+T182	Token 584 586	of
+T183	Token 587 593	future
+T184	Token 594 601	therapy
+T185	Token 601 602	.
+R70	det Arg1:T163 Arg2:T162
+R71	prep_in Arg1:T166 Arg2:T163
+R72	punct Arg1:T166 Arg2:T164
+R73	nsubj Arg1:T166 Arg2:T165
+R74	det Arg1:T169 Arg2:T167
+R75	amod Arg1:T169 Arg2:T168
+R76	dobj Arg1:T166 Arg2:T169
+R77	det Arg1:T173 Arg2:T171
+R78	amod Arg1:T173 Arg2:T172
+R79	prep_of Arg1:T169 Arg2:T173
+R80	prep_of Arg1:T173 Arg2:T175
+R81	poss Arg1:T178 Arg2:T177
+R82	prep_of Arg1:T169 Arg2:T178
+R83	conj_and Arg1:T173 Arg2:T178
+R84	det Arg1:T181 Arg2:T180
+R85	prep_in Arg1:T178 Arg2:T181
+R86	amod Arg1:T184 Arg2:T183
+R87	prep_of Arg1:T181 Arg2:T184
+R88	punct Arg1:T166 Arg2:T185

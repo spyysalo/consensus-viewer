@@ -1,0 +1,382 @@
+T26	che 64 73	glutamate
+T27	ggp 0 14	Growth hormone
+T28	ggp 25 34	peptide-6
+T1	Token 0 6	Growth
+T2	Token 7 14	hormone
+T3	Token 15 24	releasing
+T4	Token 25 34	peptide-6
+T5	Token 35 39	acts
+T6	Token 40 42	as
+T7	Token 43 44	a
+T8	Token 45 53	survival
+T9	Token 54 60	factor
+T10	Token 61 63	in
+T11	Token 64 73	glutamate
+T12	Token 73 74	-
+T13	Token 74 81	induced
+T14	Token 82 96	excitotoxicity
+T15	Token 96 97	.
+R1	nn Arg1:T2 Arg2:T1
+R2	nsubj Arg1:T5 Arg2:T2
+R3	amod Arg1:T2 Arg2:T3
+R4	num Arg1:T2 Arg2:T4
+R5	det Arg1:T9 Arg2:T7
+R6	nn Arg1:T9 Arg2:T8
+R7	prep_as Arg1:T5 Arg2:T9
+R8	amod Arg1:T14 Arg2:T13
+R9	prep_in Arg1:T9 Arg2:T14
+R10	punct Arg1:T5 Arg2:T15
+R11	hyphen Arg1:T13 Arg2:T11
+T94	ggp 155 169	growth hormone
+T95	ggp 180 189	peptide-6
+T96	ggp 209 225	ghrelin receptor
+T97	ggp 237 265	insulin-like growth factor I
+T29	Token 98 105	Chronic
+T30	Token 106 114	systemic
+T31	Token 115 124	treatment
+T32	Token 125 130	given
+T33	Token 131 133	to
+T34	Token 134 139	adult
+T35	Token 140 144	male
+T36	Token 145 149	rats
+T37	Token 150 154	with
+T38	Token 155 161	growth
+T39	Token 162 169	hormone
+T40	Token 170 179	releasing
+T41	Token 180 189	peptide-6
+T42	Token 189 190	,
+T43	Token 191 193	an
+T44	Token 194 201	agonist
+T45	Token 202 204	of
+T46	Token 205 208	the
+T47	Token 209 216	ghrelin
+T48	Token 217 225	receptor
+T49	Token 225 226	,
+T50	Token 227 236	increases
+T51	Token 237 249	insulin-like
+T52	Token 250 256	growth
+T53	Token 257 263	factor
+T54	Token 264 265	I
+T55	Token 266 272	levels
+T56	Token 273 275	in
+T57	Token 276 283	various
+T58	Token 284 289	brain
+T59	Token 290 297	regions
+T60	Token 297 298	,
+T61	Token 299 308	including
+T62	Token 309 312	the
+T63	Token 313 325	hypothalamus
+T64	Token 326 329	and
+T65	Token 330 340	cerebellum
+T66	Token 340 341	.
+R12	amod Arg1:T31 Arg2:T29
+R13	amod Arg1:T31 Arg2:T30
+R14	nsubj Arg1:T50 Arg2:T31
+R15	partmod Arg1:T31 Arg2:T32
+R16	amod Arg1:T36 Arg2:T34
+R17	amod Arg1:T36 Arg2:T35
+R18	prep_to Arg1:T32 Arg2:T36
+R19	nn Arg1:T39 Arg2:T38
+R20	prep_with Arg1:T36 Arg2:T39
+R21	amod Arg1:T39 Arg2:T40
+R22	num Arg1:T39 Arg2:T41
+R23	punct Arg1:T39 Arg2:T42
+R24	det Arg1:T44 Arg2:T43
+R25	appos Arg1:T39 Arg2:T44
+R26	det Arg1:T48 Arg2:T46
+R27	nn Arg1:T48 Arg2:T47
+R28	prep_of Arg1:T44 Arg2:T48
+R29	punct Arg1:T39 Arg2:T49
+R30	amod Arg1:T53 Arg2:T51
+R31	nn Arg1:T53 Arg2:T52
+R32	nn Arg1:T55 Arg2:T53
+R33	num Arg1:T53 Arg2:T54
+R34	dobj Arg1:T50 Arg2:T55
+R35	amod Arg1:T59 Arg2:T57
+R36	nn Arg1:T59 Arg2:T58
+R37	prep_in Arg1:T55 Arg2:T59
+R38	punct Arg1:T59 Arg2:T60
+R39	dep Arg1:T63 Arg2:T62
+R40	prep_including Arg1:T59 Arg2:T63
+R41	prep_including Arg1:T59 Arg2:T65
+R42	conj_and Arg1:T63 Arg2:T65
+R43	punct Arg1:T50 Arg2:T66
+T98	Token 342 353	Furthermore
+T99	Token 353 354	,
+T100	Token 355 368	intracellular
+T101	Token 369 379	signalling
+T102	Token 380 388	cascades
+T103	Token 389 397	normally
+T104	Token 398 408	associated
+T105	Token 409 413	with
+T106	Token 414 428	anti-apoptotic
+T107	Token 429 436	actions
+T108	Token 437 440	are
+T109	Token 441 450	activated
+T110	Token 451 453	in
+T111	Token 454 457	the
+T112	Token 458 462	same
+T113	Token 463 468	areas
+T114	Token 469 472	and
+T115	Token 473 476	are
+T116	Token 477 487	coincident
+T117	Token 488 492	with
+T118	Token 493 502	decreased
+T119	Token 503 508	basal
+T120	Token 509 513	cell
+T121	Token 514 519	death
+T122	Token 519 520	.
+R44	advmod Arg1:T109 Arg2:T98
+R45	punct Arg1:T109 Arg2:T99
+R46	amod Arg1:T102 Arg2:T100
+R47	nn Arg1:T102 Arg2:T101
+R48	nsubjpass Arg1:T109 Arg2:T102
+R49	nsubj Arg1:T116 Arg2:T102
+R50	advmod Arg1:T104 Arg2:T103
+R51	partmod Arg1:T102 Arg2:T104
+R52	amod Arg1:T107 Arg2:T106
+R53	prep_with Arg1:T104 Arg2:T107
+R54	auxpass Arg1:T109 Arg2:T108
+R55	det Arg1:T113 Arg2:T111
+R56	amod Arg1:T113 Arg2:T112
+R57	prep_in Arg1:T109 Arg2:T113
+R58	cop Arg1:T116 Arg2:T115
+R59	conj_and Arg1:T109 Arg2:T116
+R60	amod Arg1:T121 Arg2:T118
+R61	amod Arg1:T121 Arg2:T119
+R62	nn Arg1:T121 Arg2:T120
+R63	prep_with Arg1:T116 Arg2:T121
+R64	punct Arg1:T109 Arg2:T122
+T220	che 563 572	glutamate
+T221	che 737 757	monosodium glutamate
+T222	ggp 691 705	growth hormone
+T223	ggp 716 725	peptide-6
+T142	Token 521 528	Because
+T143	Token 529 539	abnormally
+T144	Token 540 544	high
+T145	Token 545 559	concentrations
+T146	Token 560 562	of
+T147	Token 563 572	glutamate
+T148	Token 573 576	can
+T149	Token 577 581	lead
+T150	Token 582 584	to
+T151	Token 585 599	overexcitation
+T152	Token 600 602	of
+T153	Token 603 611	neurones
+T154	Token 612 619	leading
+T155	Token 620 622	to
+T156	Token 623 627	cell
+T157	Token 628 634	damage
+T158	Token 635 641	and/or
+T159	Token 642 647	death
+T160	Token 647 648	,
+T161	Token 649 651	we
+T162	Token 652 664	investigated
+T163	Token 665 672	whether
+T164	Token 673 687	administration
+T165	Token 688 690	of
+T166	Token 691 697	growth
+T167	Token 698 705	hormone
+T168	Token 706 715	releasing
+T169	Token 716 725	peptide-6
+T170	Token 726 736	attenuates
+T171	Token 737 747	monosodium
+T172	Token 748 757	glutamate
+T173	Token 757 758	-
+T174	Token 758 765	induced
+T175	Token 766 775	apoptosis
+T176	Token 776 778	in
+T177	Token 779 782	the
+T178	Token 783 786	rat
+T179	Token 787 799	hypothalamus
+T180	Token 800 803	and
+T181	Token 804 814	cerebellum
+T182	Token 814 815	.
+R65	mark Arg1:T149 Arg2:T142
+R66	advmod Arg1:T144 Arg2:T143
+R67	amod Arg1:T145 Arg2:T144
+R68	nsubj Arg1:T149 Arg2:T145
+R69	prep_of Arg1:T145 Arg2:T147
+R70	aux Arg1:T149 Arg2:T148
+R71	advcl Arg1:T162 Arg2:T149
+R72	prep_to Arg1:T149 Arg2:T151
+R73	prep_of Arg1:T151 Arg2:T153
+R74	partmod Arg1:T153 Arg2:T154
+R75	nn Arg1:T157 Arg2:T156
+R76	prep_to Arg1:T154 Arg2:T157
+R77	prep_to Arg1:T154 Arg2:T159
+R78	conj_and/or Arg1:T157 Arg2:T159
+R79	punct Arg1:T162 Arg2:T160
+R80	nsubj Arg1:T162 Arg2:T161
+R81	complm Arg1:T170 Arg2:T163
+R82	nsubj Arg1:T170 Arg2:T164
+R83	nn Arg1:T167 Arg2:T166
+R84	prep_of Arg1:T164 Arg2:T167
+R85	amod Arg1:T167 Arg2:T168
+R86	num Arg1:T167 Arg2:T169
+R87	ccomp Arg1:T162 Arg2:T170
+R88	nn Arg1:T175 Arg2:T171
+R89	amod Arg1:T175 Arg2:T174
+R90	dobj Arg1:T170 Arg2:T175
+R91	det Arg1:T179 Arg2:T177
+R92	nn Arg1:T179 Arg2:T178
+R93	prep_in Arg1:T175 Arg2:T179
+R94	prep_in Arg1:T175 Arg2:T181
+R95	conj_and Arg1:T179 Arg2:T181
+R96	punct Arg1:T162 Arg2:T182
+R97	hyphen Arg1:T174 Arg2:T172
+T287	che 816 825	Glutamate
+T288	che 920 936	poly(ADP-ribose)
+T289	ggp 850 859	caspase 9
+T290	ggp 884 893	caspase 7
+T291	ggp 925 947	ADP-ribose) polymerase
+T224	Token 816 825	Glutamate
+T225	Token 826 835	increased
+T226	Token 836 846	activation
+T227	Token 847 849	of
+T228	Token 850 857	caspase
+T229	Token 858 859	9
+T230	Token 860 868	followed
+T231	Token 869 871	by
+T232	Token 872 880	cleavage
+T233	Token 881 883	of
+T234	Token 884 891	caspase
+T235	Token 892 893	7
+T236	Token 893 894	,
+T237	Token 895 900	which
+T238	Token 901 903	in
+T239	Token 904 908	turn
+T240	Token 909 919	fragmented
+T241	Token 920 924	poly
+T242	Token 924 925	(
+T243	Token 925 935	ADP-ribose
+T244	Token 935 936	)
+T245	Token 937 947	polymerase
+T246	Token 947 948	,
+T247	Token 949 960	terminating
+T248	Token 961 963	in
+T249	Token 964 968	cell
+T250	Token 969 974	death
+T251	Token 975 977	in
+T252	Token 978 982	both
+T253	Token 983 986	the
+T254	Token 987 999	hypothalamus
+T255	Token 1000 1003	and
+T256	Token 1004 1014	cerebellum
+T257	Token 1014 1015	.
+R98	nsubj Arg1:T225 Arg2:T224
+R99	dobj Arg1:T225 Arg2:T226
+R100	prep_of Arg1:T226 Arg2:T228
+R101	num Arg1:T228 Arg2:T229
+R102	partmod Arg1:T226 Arg2:T230
+R103	agent Arg1:T230 Arg2:T232
+R104	nsubj Arg1:T247 Arg2:T232
+R105	prep_of Arg1:T232 Arg2:T234
+R106	num Arg1:T234 Arg2:T235
+R107	punct Arg1:T232 Arg2:T236
+R108	prep_in Arg1:T247 Arg2:T239
+R109	amod Arg1:T245 Arg2:T240
+R110	nn Arg1:T245 Arg2:T241
+R111	punct Arg1:T245 Arg2:T242
+R112	nn Arg1:T245 Arg2:T243
+R113	punct Arg1:T245 Arg2:T244
+R114	dep Arg1:T239 Arg2:T245
+R115	punct Arg1:T247 Arg2:T246
+R116	rcmod Arg1:T232 Arg2:T247
+R117	nn Arg1:T250 Arg2:T249
+R118	prep_in Arg1:T247 Arg2:T250
+R119	preconj Arg1:T254 Arg2:T252
+R120	dep Arg1:T254 Arg2:T253
+R121	prep_in Arg1:T250 Arg2:T254
+R122	prep_in Arg1:T250 Arg2:T256
+R123	conj_and Arg1:T254 Arg2:T256
+R124	punct Arg1:T225 Arg2:T257
+T334	che 1060 1069	glutamate
+T335	che 1138 1154	poly(ADP-ribose)
+T336	ggp 1016 1030	Growth hormone
+T337	ggp 1117 1127	caspases 9
+T338	ggp 1143 1165	ADP-ribose) polymerase
+T292	Token 1016 1022	Growth
+T293	Token 1023 1030	hormone
+T294	Token 1031 1040	releasing
+T295	Token 1041 1050	peptide-6
+T296	Token 1051 1059	reversed
+T297	Token 1060 1069	glutamate
+T298	Token 1069 1070	-
+T299	Token 1070 1077	induced
+T300	Token 1078 1082	cell
+T301	Token 1083 1088	death
+T302	Token 1089 1091	by
+T303	Token 1092 1102	decreasing
+T304	Token 1103 1113	activation
+T305	Token 1114 1116	of
+T306	Token 1117 1125	caspases
+T307	Token 1126 1127	9
+T308	Token 1128 1131	and
+T309	Token 1132 1133	7
+T310	Token 1134 1137	and
+T311	Token 1138 1142	poly
+T312	Token 1142 1143	(
+T313	Token 1143 1153	ADP-ribose
+T314	Token 1153 1154	)
+T315	Token 1155 1165	polymerase
+T316	Token 1166 1179	fragmentation
+T317	Token 1179 1180	.
+R125	nn Arg1:T293 Arg2:T292
+R126	nsubj Arg1:T296 Arg2:T293
+R127	amod Arg1:T293 Arg2:T294
+R128	num Arg1:T293 Arg2:T295
+R129	amod Arg1:T301 Arg2:T299
+R130	nn Arg1:T301 Arg2:T300
+R131	dobj Arg1:T296 Arg2:T301
+R132	prepc_by Arg1:T296 Arg2:T303
+R133	dobj Arg1:T303 Arg2:T304
+R134	prep_of Arg1:T304 Arg2:T306
+R135	num Arg1:T306 Arg2:T307
+R136	prep_of Arg1:T304 Arg2:T309
+R137	conj_and Arg1:T306 Arg2:T309
+R138	nn Arg1:T315 Arg2:T311
+R139	punct Arg1:T315 Arg2:T312
+R140	nn Arg1:T315 Arg2:T313
+R141	punct Arg1:T315 Arg2:T314
+R142	nn Arg1:T316 Arg2:T315
+R143	dobj Arg1:T303 Arg2:T316
+R144	conj_and Arg1:T304 Arg2:T316
+R145	punct Arg1:T296 Arg2:T317
+R146	hyphen Arg1:T299 Arg2:T297
+T374	ggp 1257 1271	growth hormone
+T339	Token 1181 1186	These
+T340	Token 1187 1194	results
+T341	Token 1195 1202	provide
+T342	Token 1203 1204	a
+T343	Token 1205 1211	better
+T344	Token 1212 1225	understanding
+T345	Token 1226 1228	of
+T346	Token 1229 1232	the
+T347	Token 1233 1248	neuroprotective
+T348	Token 1249 1253	role
+T349	Token 1254 1256	of
+T350	Token 1257 1263	growth
+T351	Token 1264 1271	hormone
+T352	Token 1272 1285	secretagogues
+T353	Token 1286 1289	and
+T354	Token 1290 1293	the
+T355	Token 1294 1304	mechanisms
+T356	Token 1305 1313	involved
+T357	Token 1313 1314	.
+R147	det Arg1:T340 Arg2:T339
+R148	nsubj Arg1:T341 Arg2:T340
+R149	det Arg1:T344 Arg2:T342
+R150	amod Arg1:T344 Arg2:T343
+R151	dobj Arg1:T341 Arg2:T344
+R152	det Arg1:T348 Arg2:T346
+R153	amod Arg1:T348 Arg2:T347
+R154	prep_of Arg1:T344 Arg2:T348
+R155	nn Arg1:T352 Arg2:T350
+R156	nn Arg1:T352 Arg2:T351
+R157	prep_of Arg1:T348 Arg2:T352
+R158	det Arg1:T355 Arg2:T354
+R159	dobj Arg1:T341 Arg2:T355
+R160	conj_and Arg1:T344 Arg2:T355
+R161	partmod Arg1:T355 Arg2:T356
+R162	punct Arg1:T341 Arg2:T357

@@ -1,0 +1,470 @@
+T16	dis 30 32	AD
+T1	Token 0 7	Disease
+T2	Token 8 17	modifying
+T3	Token 18 25	therapy
+T4	Token 26 29	for
+T5	Token 30 32	AD
+T6	Token 32 33	?
+R1	nsubj Arg1:T2 Arg2:T1
+R2	dobj Arg1:T2 Arg2:T3
+R3	prep_for Arg1:T3 Arg2:T5
+R4	punct Arg1:T2 Arg2:T6
+T50	dis 34 53	Alzheimer's disease
+T51	dis 55 57	AD
+T52	dis 86 94	dementia
+T17	Token 34 43	Alzheimer
+T18	Token 43 45	's
+T19	Token 46 53	disease
+T20	Token 54 55	(
+T21	Token 55 57	AD
+T22	Token 57 58	)
+T23	Token 59 61	is
+T24	Token 62 65	the
+T25	Token 66 70	most
+T26	Token 71 77	common
+T27	Token 78 82	form
+T28	Token 83 85	of
+T29	Token 86 94	dementia
+T30	Token 95 97	in
+T31	Token 98 112	industrialized
+T32	Token 113 120	nations
+T33	Token 120 121	.
+R5	poss Arg1:T19 Arg2:T17
+R6	nsubj Arg1:T27 Arg2:T19
+R7	punct Arg1:T21 Arg2:T20
+R8	abbrev Arg1:T19 Arg2:T21
+R9	punct Arg1:T21 Arg2:T22
+R10	cop Arg1:T27 Arg2:T23
+R11	det Arg1:T27 Arg2:T24
+R12	advmod Arg1:T26 Arg2:T25
+R13	amod Arg1:T27 Arg2:T26
+R14	prep_of Arg1:T27 Arg2:T29
+R15	amod Arg1:T32 Arg2:T31
+R16	prep_in Arg1:T27 Arg2:T32
+R17	punct Arg1:T27 Arg2:T33
+T125	dis 188 190	AD
+T126	dis 298 300	AD
+T53	Token 122 124	If
+T54	Token 125 129	more
+T55	Token 130 139	effective
+T56	Token 140 149	therapies
+T57	Token 150 153	are
+T58	Token 154 157	not
+T59	Token 158 167	developed
+T60	Token 168 172	that
+T61	Token 173 179	either
+T62	Token 180 187	prevent
+T63	Token 188 190	AD
+T64	Token 191 193	or
+T65	Token 194 199	block
+T66	Token 200 211	progression
+T67	Token 212 214	of
+T68	Token 215 218	the
+T69	Token 219 226	disease
+T70	Token 227 229	in
+T71	Token 230 233	its
+T72	Token 234 238	very
+T73	Token 239 244	early
+T74	Token 245 251	stages
+T75	Token 251 252	,
+T76	Token 253 256	the
+T77	Token 257 265	economic
+T78	Token 266 269	and
+T79	Token 270 278	societal
+T80	Token 279 283	cost
+T81	Token 284 286	of
+T82	Token 287 293	caring
+T83	Token 294 297	for
+T84	Token 298 300	AD
+T85	Token 301 309	patients
+T86	Token 310 314	will
+T87	Token 315 317	be
+T88	Token 318 329	devastating
+T89	Token 329 330	.
+R18	mark Arg1:T59 Arg2:T53
+R19	advmod Arg1:T55 Arg2:T54
+R20	amod Arg1:T56 Arg2:T55
+R21	nsubjpass Arg1:T59 Arg2:T56
+R22	auxpass Arg1:T59 Arg2:T57
+R23	neg Arg1:T59 Arg2:T58
+R24	advcl Arg1:T88 Arg2:T59
+R25	nsubj Arg1:T62 Arg2:T60
+R26	nsubj Arg1:T65 Arg2:T60
+R27	preconj Arg1:T62 Arg2:T61
+R28	ccomp Arg1:T59 Arg2:T62
+R29	dobj Arg1:T62 Arg2:T63
+R30	ccomp Arg1:T59 Arg2:T65
+R31	conj_or Arg1:T62 Arg2:T65
+R32	dobj Arg1:T65 Arg2:T66
+R33	det Arg1:T69 Arg2:T68
+R34	prep_of Arg1:T66 Arg2:T69
+R35	poss Arg1:T74 Arg2:T71
+R36	advmod Arg1:T73 Arg2:T72
+R37	amod Arg1:T74 Arg2:T73
+R38	prep_in Arg1:T66 Arg2:T74
+R39	punct Arg1:T88 Arg2:T75
+R40	det Arg1:T80 Arg2:T76
+R41	amod Arg1:T80 Arg2:T77
+R42	conj_and Arg1:T77 Arg2:T79
+R43	amod Arg1:T80 Arg2:T79
+R44	nsubj Arg1:T88 Arg2:T80
+R45	prep_of Arg1:T80 Arg2:T82
+R46	nn Arg1:T85 Arg2:T84
+R47	prep_for Arg1:T82 Arg2:T85
+R48	aux Arg1:T88 Arg2:T86
+R49	cop Arg1:T88 Arg2:T87
+R50	punct Arg1:T88 Arg2:T89
+T203	che 417 423	acetyl
+T204	che 540 550	adamantane
+T205	che 563 572	memantine
+T206	dis 399 401	AD
+T207	ggp 417 438	acetyl cholinesterase
+T127	Token 331 335	Only
+T128	Token 336 339	two
+T129	Token 340 345	types
+T130	Token 346 348	of
+T131	Token 349 354	drugs
+T132	Token 355 358	are
+T133	Token 359 368	currently
+T134	Token 369 377	approved
+T135	Token 378 381	for
+T136	Token 382 385	the
+T137	Token 386 395	treatment
+T138	Token 396 398	of
+T139	Token 399 401	AD
+T140	Token 401 402	:
+T141	Token 403 413	inhibitors
+T142	Token 414 416	of
+T143	Token 417 423	acetyl
+T144	Token 424 438	cholinesterase
+T145	Token 438 439	,
+T146	Token 440 445	which
+T147	Token 446 461	symptomatically
+T148	Token 462 469	enhance
+T149	Token 470 479	cognitive
+T150	Token 480 485	state
+T151	Token 486 488	to
+T152	Token 489 493	some
+T153	Token 494 500	degree
+T154	Token 501 504	but
+T155	Token 505 508	are
+T156	Token 509 512	not
+T157	Token 513 520	disease
+T158	Token 521 530	modifying
+T159	Token 530 531	;
+T160	Token 532 535	and
+T161	Token 536 539	the
+T162	Token 540 550	adamantane
+T163	Token 551 561	derivative
+T164	Token 561 562	,
+T165	Token 563 572	memantine
+T166	Token 572 573	.
+R51	quantmod Arg1:T128 Arg2:T127
+R52	num Arg1:T129 Arg2:T128
+R53	nsubj Arg1:T134 Arg2:T129
+R54	prep_of Arg1:T129 Arg2:T131
+R55	cop Arg1:T134 Arg2:T132
+R56	advmod Arg1:T134 Arg2:T133
+R57	det Arg1:T137 Arg2:T136
+R58	prep_for Arg1:T134 Arg2:T137
+R59	prep_of Arg1:T137 Arg2:T139
+R60	punct Arg1:T137 Arg2:T140
+R61	prep_for Arg1:T134 Arg2:T141
+R62	conj_and Arg1:T137 Arg2:T141
+R63	nn Arg1:T144 Arg2:T143
+R64	prep_of Arg1:T141 Arg2:T144
+R65	nsubj Arg1:T148 Arg2:T144
+R66	punct Arg1:T144 Arg2:T145
+R67	advmod Arg1:T148 Arg2:T147
+R68	rcmod Arg1:T144 Arg2:T148
+R69	amod Arg1:T150 Arg2:T149
+R70	dobj Arg1:T148 Arg2:T150
+R71	det Arg1:T153 Arg2:T152
+R72	prep_to Arg1:T148 Arg2:T153
+R73	cop Arg1:T158 Arg2:T155
+R74	neg Arg1:T158 Arg2:T156
+R75	nn Arg1:T158 Arg2:T157
+R76	rcmod Arg1:T144 Arg2:T158
+R77	conj_but Arg1:T148 Arg2:T158
+R78	punct Arg1:T137 Arg2:T159
+R79	det Arg1:T163 Arg2:T161
+R80	nn Arg1:T163 Arg2:T162
+R81	prep_for Arg1:T134 Arg2:T163
+R82	conj_and Arg1:T137 Arg2:T163
+R83	punct Arg1:T163 Arg2:T164
+R84	appos Arg1:T163 Arg2:T165
+R85	punct Arg1:T134 Arg2:T166
+T256	che 574 583	Memantine
+T257	che 616 620	NMDA
+T258	ggp 616 629	NMDA receptor
+T208	Token 574 583	Memantine
+T209	Token 584 598	preferentially
+T210	Token 599 605	blocks
+T211	Token 606 615	excessive
+T212	Token 616 620	NMDA
+T213	Token 621 629	receptor
+T214	Token 630 638	activity
+T215	Token 639 646	without
+T216	Token 647 657	disrupting
+T217	Token 658 664	normal
+T218	Token 665 673	receptor
+T219	Token 674 682	activity
+T220	Token 683 686	and
+T221	Token 687 689	is
+T222	Token 690 697	thought
+T223	Token 698 700	to
+T224	Token 701 703	be
+T225	Token 704 705	a
+T226	Token 706 721	neuroprotective
+T227	Token 722 727	agent
+T228	Token 728 732	that
+T229	Token 733 739	blocks
+T230	Token 740 753	excitotoxicty
+T231	Token 753 754	.
+R86	nsubj Arg1:T210 Arg2:T208
+R87	nsubjpass Arg1:T222 Arg2:T208
+R88	xsubj Arg1:T227 Arg2:T208
+R89	advmod Arg1:T210 Arg2:T209
+R90	amod Arg1:T214 Arg2:T211
+R91	nn Arg1:T214 Arg2:T212
+R92	nn Arg1:T214 Arg2:T213
+R93	dobj Arg1:T210 Arg2:T214
+R94	prepc_without Arg1:T210 Arg2:T216
+R95	amod Arg1:T219 Arg2:T217
+R96	nn Arg1:T219 Arg2:T218
+R97	dobj Arg1:T216 Arg2:T219
+R98	auxpass Arg1:T222 Arg2:T221
+R99	conj_and Arg1:T210 Arg2:T222
+R100	aux Arg1:T227 Arg2:T223
+R101	cop Arg1:T227 Arg2:T224
+R102	det Arg1:T227 Arg2:T225
+R103	amod Arg1:T227 Arg2:T226
+R104	xcomp Arg1:T222 Arg2:T227
+R105	nsubj Arg1:T229 Arg2:T227
+R106	rcmod Arg1:T227 Arg2:T229
+R107	dobj Arg1:T229 Arg2:T230
+R108	punct Arg1:T210 Arg2:T231
+T283	che 755 764	Memantine
+T259	Token 755 764	Memantine
+T260	Token 765 774	therefore
+T261	Token 775 778	may
+T262	Token 779 783	have
+T263	Token 784 785	a
+T264	Token 786 797	potentially
+T265	Token 798 805	disease
+T266	Token 806 815	modifying
+T267	Token 816 822	effect
+T268	Token 823 825	in
+T269	Token 826 834	multiple
+T270	Token 835 852	neurodegenerative
+T271	Token 853 863	conditions
+T272	Token 863 864	.
+R109	nsubj Arg1:T262 Arg2:T259
+R110	advmod Arg1:T262 Arg2:T260
+R111	aux Arg1:T262 Arg2:T261
+R112	det Arg1:T267 Arg2:T263
+R113	advmod Arg1:T267 Arg2:T264
+R114	nn Arg1:T267 Arg2:T265
+R115	nn Arg1:T267 Arg2:T266
+R116	dobj Arg1:T262 Arg2:T267
+R117	amod Arg1:T271 Arg2:T269
+R118	amod Arg1:T271 Arg2:T270
+R119	prep_in Arg1:T262 Arg2:T271
+R120	punct Arg1:T262 Arg2:T272
+T344	dis 914 916	AD
+T345	ggp 1001 1021	amyloid beta protein
+T346	ggp 1023 1028	Abeta
+T284	Token 865 867	An
+T285	Token 868 876	improved
+T286	Token 877 890	understanding
+T287	Token 891 893	of
+T288	Token 894 897	the
+T289	Token 898 910	pathogeneses
+T290	Token 911 913	of
+T291	Token 914 916	AD
+T292	Token 917 920	has
+T293	Token 921 924	now
+T294	Token 925 928	led
+T295	Token 929 931	to
+T296	Token 932 935	the
+T297	Token 936 950	identification
+T298	Token 951 953	of
+T299	Token 954 962	numerous
+T300	Token 963 974	therapeutic
+T301	Token 975 982	targets
+T302	Token 983 991	designed
+T303	Token 992 994	to
+T304	Token 995 1000	alter
+T305	Token 1001 1008	amyloid
+T306	Token 1009 1013	beta
+T307	Token 1014 1021	protein
+T308	Token 1022 1023	(
+T309	Token 1023 1028	Abeta
+T310	Token 1028 1029	)
+T311	Token 1030 1032	or
+T312	Token 1033 1036	tau
+T313	Token 1037 1049	accumulation
+T314	Token 1049 1050	.
+R121	det Arg1:T286 Arg2:T284
+R122	amod Arg1:T286 Arg2:T285
+R123	nsubj Arg1:T294 Arg2:T286
+R124	det Arg1:T289 Arg2:T288
+R125	prep_of Arg1:T286 Arg2:T289
+R126	prep_of Arg1:T289 Arg2:T291
+R127	aux Arg1:T294 Arg2:T292
+R128	advmod Arg1:T294 Arg2:T293
+R129	det Arg1:T297 Arg2:T296
+R130	prep_to Arg1:T294 Arg2:T297
+R131	amod Arg1:T301 Arg2:T299
+R132	amod Arg1:T301 Arg2:T300
+R133	prep_of Arg1:T297 Arg2:T301
+R134	xsubj Arg1:T304 Arg2:T301
+R135	partmod Arg1:T301 Arg2:T302
+R136	aux Arg1:T304 Arg2:T303
+R137	xcomp Arg1:T302 Arg2:T304
+R138	amod Arg1:T307 Arg2:T305
+R139	nn Arg1:T307 Arg2:T306
+R140	dobj Arg1:T304 Arg2:T307
+R141	punct Arg1:T309 Arg2:T308
+R142	appos Arg1:T307 Arg2:T309
+R143	punct Arg1:T309 Arg2:T310
+R144	nn Arg1:T313 Arg2:T312
+R145	dobj Arg1:T304 Arg2:T313
+R146	conj_or Arg1:T307 Arg2:T313
+R147	punct Arg1:T294 Arg2:T314
+T386	ggp 1072 1077	Abeta
+T347	Token 1051 1060	Therapies
+T348	Token 1061 1065	that
+T349	Token 1066 1071	alter
+T350	Token 1072 1077	Abeta
+T351	Token 1078 1081	and
+T352	Token 1082 1085	tau
+T353	Token 1086 1093	through
+T354	Token 1094 1099	these
+T355	Token 1100 1107	various
+T356	Token 1108 1115	targets
+T357	Token 1116 1119	are
+T358	Token 1120 1126	likely
+T359	Token 1127 1129	to
+T360	Token 1130 1134	have
+T361	Token 1135 1146	significant
+T362	Token 1147 1154	disease
+T363	Token 1155 1164	modifying
+T364	Token 1165 1172	effects
+T365	Token 1172 1173	.
+R148	nsubj Arg1:T349 Arg2:T347
+R149	nsubj Arg1:T358 Arg2:T347
+R150	rcmod Arg1:T347 Arg2:T349
+R151	dobj Arg1:T349 Arg2:T350
+R152	dobj Arg1:T349 Arg2:T352
+R153	conj_and Arg1:T350 Arg2:T352
+R154	det Arg1:T356 Arg2:T354
+R155	amod Arg1:T356 Arg2:T355
+R156	prep_through Arg1:T349 Arg2:T356
+R157	cop Arg1:T358 Arg2:T357
+R158	aux Arg1:T360 Arg2:T359
+R159	xcomp Arg1:T358 Arg2:T360
+R160	amod Arg1:T364 Arg2:T361
+R161	nn Arg1:T364 Arg2:T362
+R162	nn Arg1:T364 Arg2:T363
+R163	dobj Arg1:T360 Arg2:T364
+R164	punct Arg1:T358 Arg2:T365
+T451	ggp 1333 1338	Abeta
+T387	Token 1174 1178	Many
+T388	Token 1179 1181	of
+T389	Token 1182 1187	these
+T390	Token 1188 1195	targets
+T391	Token 1196 1200	have
+T392	Token 1201 1205	been
+T393	Token 1206 1215	validated
+T394	Token 1216 1218	in
+T395	Token 1219 1224	proof
+T396	Token 1225 1227	of
+T397	Token 1228 1235	concept
+T398	Token 1236 1243	studies
+T399	Token 1244 1246	in
+T400	Token 1247 1258	preclinical
+T401	Token 1259 1265	animal
+T402	Token 1266 1272	models
+T403	Token 1272 1273	,
+T404	Token 1274 1277	and
+T405	Token 1278 1282	some
+T406	Token 1283 1294	potentially
+T407	Token 1295 1302	disease
+T408	Token 1303 1312	modifying
+T409	Token 1313 1322	therapies
+T410	Token 1323 1332	targeting
+T411	Token 1333 1338	Abeta
+T412	Token 1339 1341	or
+T413	Token 1342 1345	tau
+T414	Token 1346 1349	are
+T415	Token 1350 1355	being
+T416	Token 1356 1362	tested
+T417	Token 1363 1365	in
+T418	Token 1366 1369	the
+T419	Token 1370 1376	clinic
+T420	Token 1376 1377	.
+R165	nsubjpass Arg1:T393 Arg2:T387
+R166	det Arg1:T390 Arg2:T389
+R167	prep_of Arg1:T387 Arg2:T390
+R168	aux Arg1:T393 Arg2:T391
+R169	auxpass Arg1:T393 Arg2:T392
+R170	prep_in Arg1:T393 Arg2:T395
+R171	nn Arg1:T398 Arg2:T397
+R172	prep_of Arg1:T395 Arg2:T398
+R173	amod Arg1:T402 Arg2:T400
+R174	nn Arg1:T402 Arg2:T401
+R175	prep_in Arg1:T395 Arg2:T402
+R176	punct Arg1:T393 Arg2:T403
+R177	det Arg1:T409 Arg2:T405
+R178	advmod Arg1:T409 Arg2:T406
+R179	nn Arg1:T409 Arg2:T407
+R180	nn Arg1:T409 Arg2:T408
+R181	nsubjpass Arg1:T416 Arg2:T409
+R182	partmod Arg1:T409 Arg2:T410
+R183	dobj Arg1:T410 Arg2:T411
+R184	dobj Arg1:T410 Arg2:T413
+R185	conj_or Arg1:T411 Arg2:T413
+R186	aux Arg1:T416 Arg2:T414
+R187	auxpass Arg1:T416 Arg2:T415
+R188	conj_and Arg1:T393 Arg2:T416
+R189	det Arg1:T419 Arg2:T418
+R190	prep_in Arg1:T416 Arg2:T419
+R191	punct Arg1:T393 Arg2:T420
+T487	dis 1480 1482	AD
+T452	Token 1378 1382	This
+T453	Token 1383 1389	review
+T454	Token 1390 1394	will
+T455	Token 1395 1404	highlight
+T456	Token 1405 1409	both
+T457	Token 1410 1413	the
+T458	Token 1414 1421	promise
+T459	Token 1422 1424	of
+T460	Token 1425 1428	and
+T461	Token 1429 1432	the
+T462	Token 1433 1442	obstacles
+T463	Token 1443 1445	to
+T464	Token 1446 1456	developing
+T465	Token 1457 1461	such
+T466	Token 1462 1469	disease
+T467	Token 1470 1479	modifying
+T468	Token 1480 1482	AD
+T469	Token 1483 1492	therapies
+T470	Token 1492 1493	.
+R192	det Arg1:T453 Arg2:T452
+R193	nsubj Arg1:T455 Arg2:T453
+R194	aux Arg1:T455 Arg2:T454
+R195	preconj Arg1:T458 Arg2:T456
+R196	det Arg1:T458 Arg2:T457
+R197	dobj Arg1:T455 Arg2:T458
+R198	prep Arg1:T458 Arg2:T459
+R199	det Arg1:T462 Arg2:T461
+R200	dobj Arg1:T455 Arg2:T462
+R201	conj_and Arg1:T458 Arg2:T462
+R202	prepc_to Arg1:T462 Arg2:T464
+R203	amod Arg1:T469 Arg2:T465
+R204	nn Arg1:T469 Arg2:T466
+R205	nn Arg1:T469 Arg2:T467
+R206	nn Arg1:T469 Arg2:T468
+R207	dobj Arg1:T464 Arg2:T469
+R208	punct Arg1:T455 Arg2:T470

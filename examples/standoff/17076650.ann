@@ -1,0 +1,550 @@
+T26	dis 59 84	myelodysplastic syndromes
+T1	Token 0 16	Immunomodulatory
+T2	Token 17 22	drugs
+T3	Token 23 24	(
+T4	Token 24 29	IMiDs
+T5	Token 29 30	)
+T6	Token 30 31	:
+T7	Token 32 33	a
+T8	Token 34 37	new
+T9	Token 38 47	treatment
+T10	Token 48 54	option
+T11	Token 55 58	for
+T12	Token 59 74	myelodysplastic
+T13	Token 75 84	syndromes
+T14	Token 84 85	.
+R1	amod Arg1:T2 Arg2:T1
+R2	punct Arg1:T4 Arg2:T3
+R3	appos Arg1:T2 Arg2:T4
+R4	punct Arg1:T4 Arg2:T5
+R5	punct Arg1:T2 Arg2:T6
+R6	det Arg1:T10 Arg2:T7
+R7	amod Arg1:T10 Arg2:T8
+R8	nn Arg1:T10 Arg2:T9
+R9	dep Arg1:T2 Arg2:T10
+R10	amod Arg1:T13 Arg2:T12
+R11	prep_for Arg1:T10 Arg2:T13
+R12	punct Arg1:T2 Arg2:T14
+T69	che 133 144	thalidomide
+T27	Token 86 89	The
+T28	Token 90 95	IMiDs
+T29	Token 96 105	represent
+T30	Token 106 107	a
+T31	Token 108 111	new
+T32	Token 112 123	proprietary
+T33	Token 124 129	class
+T34	Token 130 132	of
+T35	Token 133 144	thalidomide
+T36	Token 145 154	analogues
+T37	Token 155 159	that
+T38	Token 160 167	possess
+T39	Token 168 175	greater
+T40	Token 176 183	potency
+T41	Token 184 187	and
+T42	Token 188 192	less
+T43	Token 193 201	toxicity
+T44	Token 202 206	than
+T45	Token 207 210	the
+T46	Token 211 217	parent
+T47	Token 218 226	compound
+T48	Token 226 227	.
+R13	det Arg1:T28 Arg2:T27
+R14	nsubj Arg1:T29 Arg2:T28
+R15	det Arg1:T33 Arg2:T30
+R16	amod Arg1:T33 Arg2:T31
+R17	amod Arg1:T33 Arg2:T32
+R18	dobj Arg1:T29 Arg2:T33
+R19	nsubj Arg1:T38 Arg2:T33
+R20	nn Arg1:T36 Arg2:T35
+R21	prep_of Arg1:T33 Arg2:T36
+R22	rcmod Arg1:T33 Arg2:T38
+R23	amod Arg1:T40 Arg2:T39
+R24	dobj Arg1:T38 Arg2:T40
+R25	advmod Arg1:T43 Arg2:T42
+R26	dobj Arg1:T38 Arg2:T43
+R27	conj_and Arg1:T40 Arg2:T43
+R28	det Arg1:T47 Arg2:T45
+R29	amod Arg1:T47 Arg2:T46
+R30	prep_than Arg1:T40 Arg2:T47
+R31	punct Arg1:T29 Arg2:T48
+T70	Token 228 230	As
+T71	Token 231 232	a
+T72	Token 233 238	group
+T73	Token 238 239	,
+T74	Token 240 245	these
+T75	Token 246 252	agents
+T76	Token 253 258	share
+T77	Token 259 262	the
+T78	Token 263 276	pharmacologic
+T79	Token 277 285	property
+T80	Token 286 288	of
+T81	Token 289 299	modulating
+T82	Token 300 308	cellular
+T83	Token 309 317	response
+T84	Token 318 320	to
+T85	Token 321 327	ligand
+T86	Token 328 338	activation
+T87	Token 338 339	,
+T88	Token 340 343	the
+T89	Token 344 351	precise
+T90	Token 352 360	biologic
+T91	Token 361 367	effect
+T92	Token 368 370	of
+T93	Token 371 376	which
+T94	Token 377 379	is
+T95	Token 380 384	cell
+T96	Token 385 392	lineage
+T97	Token 393 396	and
+T98	Token 397 416	stimulant-dependent
+T99	Token 416 417	.
+R32	det Arg1:T72 Arg2:T71
+R33	prep_as Arg1:T76 Arg2:T72
+R34	punct Arg1:T76 Arg2:T73
+R35	det Arg1:T75 Arg2:T74
+R36	nsubj Arg1:T76 Arg2:T75
+R37	det Arg1:T79 Arg2:T77
+R38	amod Arg1:T79 Arg2:T78
+R39	dobj Arg1:T76 Arg2:T79
+R40	prepc_of Arg1:T79 Arg2:T81
+R41	amod Arg1:T83 Arg2:T82
+R42	dobj Arg1:T81 Arg2:T83
+R43	nn Arg1:T86 Arg2:T85
+R44	prep_to Arg1:T83 Arg2:T86
+R45	punct Arg1:T83 Arg2:T87
+R46	det Arg1:T91 Arg2:T88
+R47	amod Arg1:T91 Arg2:T89
+R48	amod Arg1:T91 Arg2:T90
+R49	dobj Arg1:T81 Arg2:T91
+R50	conj_and Arg1:T83 Arg2:T91
+R51	dep Arg1:T96 Arg2:T93
+R52	dep Arg1:T96 Arg2:T94
+R53	nn Arg1:T96 Arg2:T95
+R54	prep_of Arg1:T91 Arg2:T96
+R55	dobj Arg1:T81 Arg2:T98
+R56	conj_and Arg1:T83 Arg2:T98
+R57	punct Arg1:T76 Arg2:T99
+T188	che 418 430	Lenalidomide
+T189	che 432 439	CC-5013
+T190	che 441 449	Revlimid
+T191	ggp 472 476	IMiD
+T192	ggp 611 625	erythropoietin
+T122	Token 418 430	Lenalidomide
+T123	Token 431 432	(
+T124	Token 432 439	CC-5013
+T125	Token 439 440	;
+T126	Token 441 449	Revlimid
+T127	Token 449 450	)
+T128	Token 450 451	,
+T129	Token 452 453	a
+T130	Token 454 460	second
+T131	Token 461 471	generation
+T132	Token 472 476	IMiD
+T133	Token 476 477	,
+T134	Token 478 481	has
+T135	Token 482 487	shown
+T136	Token 488 499	significant
+T137	Token 500 514	erythropoietic
+T138	Token 515 523	activity
+T139	Token 524 526	in
+T140	Token 527 535	patients
+T141	Token 536 540	with
+T142	Token 541 546	lower
+T143	Token 547 551	risk
+T144	Token 552 555	MDS
+T145	Token 556 560	that
+T146	Token 561 565	have
+T147	Token 566 572	failed
+T148	Token 573 575	or
+T149	Token 576 579	are
+T150	Token 580 583	not
+T151	Token 584 594	candidates
+T152	Token 595 598	for
+T153	Token 599 610	recombinant
+T154	Token 611 625	erythropoietin
+T155	Token 626 635	treatment
+T156	Token 635 636	.
+R58	nsubj Arg1:T135 Arg2:T122
+R59	punct Arg1:T124 Arg2:T123
+R60	abbrev Arg1:T122 Arg2:T124
+R61	punct Arg1:T124 Arg2:T125
+R62	dep Arg1:T124 Arg2:T126
+R63	punct Arg1:T124 Arg2:T127
+R64	punct Arg1:T122 Arg2:T128
+R65	det Arg1:T132 Arg2:T129
+R66	amod Arg1:T132 Arg2:T130
+R67	nn Arg1:T132 Arg2:T131
+R68	appos Arg1:T122 Arg2:T132
+R69	punct Arg1:T122 Arg2:T133
+R70	aux Arg1:T135 Arg2:T134
+R71	amod Arg1:T138 Arg2:T136
+R72	amod Arg1:T138 Arg2:T137
+R73	dobj Arg1:T135 Arg2:T138
+R74	prep_in Arg1:T135 Arg2:T140
+R75	amod Arg1:T144 Arg2:T142
+R76	nn Arg1:T144 Arg2:T143
+R77	prep_with Arg1:T140 Arg2:T144
+R78	nsubj Arg1:T147 Arg2:T144
+R79	aux Arg1:T147 Arg2:T146
+R80	rcmod Arg1:T144 Arg2:T147
+R81	cop Arg1:T151 Arg2:T149
+R82	neg Arg1:T151 Arg2:T150
+R83	rcmod Arg1:T144 Arg2:T151
+R84	conj_or Arg1:T147 Arg2:T151
+R85	amod Arg1:T154 Arg2:T153
+R86	nn Arg1:T155 Arg2:T154
+R87	prep_for Arg1:T151 Arg2:T155
+R88	punct Arg1:T135 Arg2:T156
+T227	che 662 674	lenalidomide
+T228	dis 693 696	MDS
+T229	ggp 717 740	erythropoietin receptor
+T193	Token 637 643	Unlike
+T194	Token 644 652	cytokine
+T195	Token 653 660	therapy
+T196	Token 660 661	,
+T197	Token 662 674	lenalidomide
+T198	Token 675 685	suppresses
+T199	Token 686 692	select
+T200	Token 693 696	MDS
+T201	Token 697 703	clones
+T202	Token 704 707	and
+T203	Token 708 716	enhances
+T204	Token 717 731	erythropoietin
+T205	Token 732 740	receptor
+T206	Token 741 750	signaling
+T207	Token 751 753	to
+T208	Token 754 761	restore
+T209	Token 762 776	erythropoiesis
+T210	Token 776 777	.
+R89	nn Arg1:T195 Arg2:T194
+R90	prep_unlike Arg1:T198 Arg2:T195
+R91	punct Arg1:T198 Arg2:T196
+R92	nsubj Arg1:T198 Arg2:T197
+R93	nsubj Arg1:T203 Arg2:T197
+R94	amod Arg1:T201 Arg2:T199
+R95	nn Arg1:T201 Arg2:T200
+R96	dobj Arg1:T198 Arg2:T201
+R97	conj_and Arg1:T198 Arg2:T203
+R98	nn Arg1:T206 Arg2:T204
+R99	nn Arg1:T206 Arg2:T205
+R100	dobj Arg1:T203 Arg2:T206
+R101	aux Arg1:T208 Arg2:T207
+R102	infmod Arg1:T206 Arg2:T208
+R103	dobj Arg1:T208 Arg2:T209
+R104	punct Arg1:T198 Arg2:T210
+T230	Token 778 786	Activity
+T231	Token 787 789	is
+T232	Token 790 798	greatest
+T233	Token 799 801	in
+T234	Token 802 810	patients
+T235	Token 811 815	with
+T236	Token 816 828	interstitial
+T237	Token 829 838	deletions
+T238	Token 839 848	involving
+T239	Token 849 859	chromosome
+T240	Token 860 866	5q31.1
+T241	Token 866 867	.
+R105	nsubj Arg1:T232 Arg2:T230
+R106	cop Arg1:T232 Arg2:T231
+R107	prep_in Arg1:T232 Arg2:T234
+R108	amod Arg1:T237 Arg2:T236
+R109	prep_with Arg1:T234 Arg2:T237
+R110	partmod Arg1:T237 Arg2:T238
+R111	nn Arg1:T240 Arg2:T239
+R112	dobj Arg1:T238 Arg2:T240
+R113	punct Arg1:T232 Arg2:T241
+T256	Token 868 869	A
+T257	Token 870 881	multicenter
+T258	Token 882 887	phase
+T259	Token 888 890	II
+T260	Token 891 896	study
+T261	Token 897 905	reported
+T262	Token 906 907	a
+T263	Token 908 910	76
+T264	Token 911 912	%
+T265	Token 913 920	overall
+T266	Token 921 932	transfusion
+T267	Token 933 941	response
+T268	Token 942 946	rate
+T269	Token 947 949	in
+T270	Token 950 971	transfusion-dependent
+T271	Token 972 980	patients
+T272	Token 981 985	with
+T273	Token 986 994	deletion
+T274	Token 995 997	5q
+T275	Token 997 998	,
+T276	Token 999 1003	with
+T277	Token 1004 1006	67
+T278	Token 1007 1008	%
+T279	Token 1009 1018	achieving
+T280	Token 1019 1030	transfusion
+T281	Token 1031 1043	independence
+T282	Token 1044 1049	after
+T283	Token 1050 1051	a
+T284	Token 1052 1058	median
+T285	Token 1059 1067	interval
+T286	Token 1068 1070	of
+T287	Token 1071 1074	4.6
+T288	Token 1075 1080	weeks
+T289	Token 1081 1083	of
+T290	Token 1084 1093	treatment
+T291	Token 1093 1094	.
+R114	det Arg1:T260 Arg2:T256
+R115	nn Arg1:T260 Arg2:T257
+R116	nn Arg1:T260 Arg2:T258
+R117	num Arg1:T260 Arg2:T259
+R118	nsubj Arg1:T261 Arg2:T260
+R119	det Arg1:T268 Arg2:T262
+R120	number Arg1:T264 Arg2:T263
+R121	amod Arg1:T268 Arg2:T264
+R122	amod Arg1:T268 Arg2:T265
+R123	nn Arg1:T268 Arg2:T266
+R124	nn Arg1:T268 Arg2:T267
+R125	dobj Arg1:T261 Arg2:T268
+R126	amod Arg1:T271 Arg2:T270
+R127	prep_in Arg1:T261 Arg2:T271
+R128	prep_with Arg1:T271 Arg2:T273
+R129	num Arg1:T273 Arg2:T274
+R130	punct Arg1:T261 Arg2:T275
+R131	num Arg1:T278 Arg2:T277
+R132	prep_with Arg1:T261 Arg2:T278
+R133	partmod Arg1:T278 Arg2:T279
+R134	nn Arg1:T281 Arg2:T280
+R135	dobj Arg1:T279 Arg2:T281
+R136	det Arg1:T285 Arg2:T283
+R137	amod Arg1:T285 Arg2:T284
+R138	prep_after Arg1:T279 Arg2:T285
+R139	num Arg1:T288 Arg2:T287
+R140	prep_of Arg1:T285 Arg2:T288
+R141	prep_of Arg1:T288 Arg2:T290
+R142	punct Arg1:T261 Arg2:T291
+T316	Token 1095 1106	Cytogenetic
+T317	Token 1107 1116	responses
+T318	Token 1117 1121	were
+T319	Token 1122 1130	observed
+T320	Token 1131 1133	in
+T321	Token 1134 1136	73
+T322	Token 1136 1137	%
+T323	Token 1138 1140	of
+T324	Token 1141 1149	patients
+T325	Token 1150 1154	with
+T326	Token 1155 1163	complete
+T327	Token 1164 1175	cytogenetic
+T328	Token 1176 1185	remission
+T329	Token 1186 1188	in
+T330	Token 1189 1191	45
+T331	Token 1191 1192	%
+T332	Token 1193 1201	patients
+T333	Token 1201 1202	.
+R143	amod Arg1:T317 Arg2:T316
+R144	nsubjpass Arg1:T319 Arg2:T317
+R145	auxpass Arg1:T319 Arg2:T318
+R146	num Arg1:T322 Arg2:T321
+R147	prep_in Arg1:T319 Arg2:T322
+R148	prep_of Arg1:T322 Arg2:T324
+R149	amod Arg1:T328 Arg2:T326
+R150	amod Arg1:T328 Arg2:T327
+R151	prep_with Arg1:T324 Arg2:T328
+R152	num Arg1:T332 Arg2:T330
+R153	nn Arg1:T332 Arg2:T331
+R154	prep_in Arg1:T328 Arg2:T332
+R155	punct Arg1:T319 Arg2:T333
+T351	Token 1203 1207	Both
+T352	Token 1208 1219	transfusion
+T353	Token 1220 1228	response
+T354	Token 1229 1232	and
+T355	Token 1233 1244	cytogenetic
+T356	Token 1245 1253	response
+T357	Token 1254 1263	frequency
+T358	Token 1264 1268	were
+T359	Token 1269 1280	independent
+T360	Token 1281 1283	of
+T361	Token 1284 1293	karyotype
+T362	Token 1294 1304	complexity
+T363	Token 1304 1305	,
+T364	Token 1306 1313	raising
+T365	Token 1314 1324	excitement
+T366	Token 1325 1329	that
+T367	Token 1330 1334	this
+T368	Token 1335 1338	new
+T369	Token 1339 1348	treatment
+T370	Token 1349 1357	strategy
+T371	Token 1358 1363	might
+T372	Token 1364 1373	favorably
+T373	Token 1374 1379	alter
+T374	Token 1380 1383	the
+T375	Token 1384 1391	natural
+T376	Token 1392 1399	history
+T377	Token 1400 1402	of
+T378	Token 1403 1410	disease
+T379	Token 1411 1413	in
+T380	Token 1414 1420	higher
+T381	Token 1421 1425	risk
+T382	Token 1426 1434	patients
+T383	Token 1435 1439	with
+T384	Token 1440 1448	deletion
+T385	Token 1449 1451	5q
+T386	Token 1451 1452	.
+R156	preconj Arg1:T353 Arg2:T351
+R157	nn Arg1:T353 Arg2:T352
+R158	nsubj Arg1:T359 Arg2:T353
+R159	amod Arg1:T356 Arg2:T355
+R160	conj_and Arg1:T353 Arg2:T356
+R161	nsubj Arg1:T359 Arg2:T356
+R162	dep Arg1:T353 Arg2:T357
+R163	cop Arg1:T359 Arg2:T358
+R164	nn Arg1:T362 Arg2:T361
+R165	prep_of Arg1:T359 Arg2:T362
+R166	punct Arg1:T359 Arg2:T363
+R167	xcomp Arg1:T359 Arg2:T364
+R168	dobj Arg1:T364 Arg2:T365
+R169	complm Arg1:T373 Arg2:T366
+R170	det Arg1:T370 Arg2:T367
+R171	amod Arg1:T370 Arg2:T368
+R172	nn Arg1:T370 Arg2:T369
+R173	nsubj Arg1:T373 Arg2:T370
+R174	aux Arg1:T373 Arg2:T371
+R175	advmod Arg1:T373 Arg2:T372
+R176	ccomp Arg1:T365 Arg2:T373
+R177	det Arg1:T376 Arg2:T374
+R178	amod Arg1:T376 Arg2:T375
+R179	dobj Arg1:T373 Arg2:T376
+R180	prep_of Arg1:T376 Arg2:T378
+R181	amod Arg1:T382 Arg2:T380
+R182	nn Arg1:T382 Arg2:T381
+R183	prep_in Arg1:T376 Arg2:T382
+R184	prep_with Arg1:T382 Arg2:T384
+R185	num Arg1:T384 Arg2:T385
+R186	punct Arg1:T359 Arg2:T386
+T429	che 1453 1465	Lenalidomide
+T416	Token 1453 1465	Lenalidomide
+T417	Token 1466 1469	was
+T418	Token 1470 1478	approved
+T419	Token 1479 1481	by
+T420	Token 1482 1485	the
+T421	Token 1486 1490	U.S.
+R187	nsubj Arg1:T418 Arg2:T416
+R188	cop Arg1:T418 Arg2:T417
+R189	det Arg1:T421 Arg2:T420
+R190	prep_by Arg1:T418 Arg2:T421
+T483	dis 1596 1599	MDS
+T430	Token 1491 1495	Food
+T431	Token 1496 1499	and
+T432	Token 1500 1504	Drug
+T433	Token 1505 1519	Administration
+T434	Token 1520 1522	on
+T435	Token 1523 1531	December
+T436	Token 1532 1534	27
+T437	Token 1534 1535	,
+T438	Token 1536 1540	2005
+T439	Token 1540 1541	,
+T440	Token 1542 1545	for
+T441	Token 1546 1549	the
+T442	Token 1550 1559	treatment
+T443	Token 1560 1562	of
+T444	Token 1563 1567	IPSS
+T445	Token 1568 1571	Low
+T446	Token 1572 1575	and
+T447	Token 1576 1590	intermediate-1
+T448	Token 1591 1595	risk
+T449	Token 1596 1599	MDS
+T450	Token 1600 1608	patients
+T451	Token 1609 1613	with
+T452	Token 1614 1617	del
+T453	Token 1617 1618	(
+T454	Token 1618 1620	5q
+T455	Token 1620 1621	)
+T456	Token 1622 1633	abnormality
+T457	Token 1633 1634	.
+R191	nn Arg1:T433 Arg2:T432
+R192	conj_and Arg1:T430 Arg2:T433
+R193	prep_on Arg1:T430 Arg2:T435
+R194	num Arg1:T435 Arg2:T436
+R195	punct Arg1:T435 Arg2:T437
+R196	appos Arg1:T435 Arg2:T438
+R197	punct Arg1:T435 Arg2:T439
+R198	det Arg1:T442 Arg2:T441
+R199	prep_for Arg1:T430 Arg2:T442
+R200	amod Arg1:T450 Arg2:T444
+R201	amod Arg1:T450 Arg2:T445
+R202	conj_and Arg1:T445 Arg2:T447
+R203	amod Arg1:T450 Arg2:T447
+R204	nn Arg1:T450 Arg2:T448
+R205	nn Arg1:T450 Arg2:T449
+R206	prep_of Arg1:T442 Arg2:T450
+R207	nn Arg1:T456 Arg2:T452
+R208	punct Arg1:T454 Arg2:T453
+R209	appos Arg1:T452 Arg2:T454
+R210	punct Arg1:T454 Arg2:T455
+R211	prep_with Arg1:T450 Arg2:T456
+R212	punct Arg1:T430 Arg2:T457
+T549	che 1762 1774	lenalidomide
+T550	che 1809 1820	darbepoetin
+T551	che 1825 1837	lenalidomide
+T552	dis 1857 1860	MDS
+T553	ggp 1713 1727	erythropoietin
+T484	Token 1635 1636	A
+T485	Token 1637 1642	phase
+T486	Token 1643 1646	III
+T487	Token 1647 1657	Intergroup
+T488	Token 1658 1663	trial
+T489	Token 1664 1665	(
+T490	Token 1665 1669	ECOG
+T491	Token 1670 1674	2905
+T492	Token 1674 1675	)
+T493	Token 1676 1680	will
+T494	Token 1681 1685	test
+T495	Token 1686 1689	the
+T496	Token 1690 1698	capacity
+T497	Token 1699 1701	to
+T498	Token 1702 1712	potentiate
+T499	Token 1713 1727	erythropoietin
+T500	Token 1728 1736	response
+T501	Token 1737 1739	by
+T502	Token 1740 1749	comparing
+T503	Token 1750 1758	response
+T504	Token 1759 1761	to
+T505	Token 1762 1774	lenalidomide
+T506	Token 1775 1786	monotherapy
+T507	Token 1787 1789	to
+T508	Token 1790 1793	the
+T509	Token 1794 1805	combination
+T510	Token 1806 1808	of
+T511	Token 1809 1820	darbepoetin
+T512	Token 1821 1824	and
+T513	Token 1825 1837	lenalidomide
+T514	Token 1838 1840	in
+T515	Token 1841 1853	non-deletion
+T516	Token 1854 1856	5q
+T517	Token 1857 1860	MDS
+T518	Token 1861 1869	patients
+T519	Token 1869 1870	.
+R213	det Arg1:T488 Arg2:T484
+R214	nn Arg1:T488 Arg2:T485
+R215	num Arg1:T488 Arg2:T486
+R216	nn Arg1:T488 Arg2:T487
+R217	nsubj Arg1:T494 Arg2:T488
+R218	punct Arg1:T490 Arg2:T489
+R219	appos Arg1:T488 Arg2:T490
+R220	num Arg1:T490 Arg2:T491
+R221	punct Arg1:T490 Arg2:T492
+R222	aux Arg1:T494 Arg2:T493
+R223	det Arg1:T496 Arg2:T495
+R224	dobj Arg1:T494 Arg2:T496
+R225	aux Arg1:T498 Arg2:T497
+R226	infmod Arg1:T496 Arg2:T498
+R227	nn Arg1:T500 Arg2:T499
+R228	dobj Arg1:T498 Arg2:T500
+R229	prepc_by Arg1:T498 Arg2:T502
+R230	dobj Arg1:T502 Arg2:T503
+R231	nn Arg1:T506 Arg2:T505
+R232	prep_to Arg1:T503 Arg2:T506
+R233	det Arg1:T509 Arg2:T508
+R234	prep_to Arg1:T503 Arg2:T509
+R235	prep_of Arg1:T509 Arg2:T511
+R236	prep_of Arg1:T509 Arg2:T513
+R237	conj_and Arg1:T511 Arg2:T513
+R238	amod Arg1:T518 Arg2:T515
+R239	nn Arg1:T518 Arg2:T516
+R240	nn Arg1:T518 Arg2:T517
+R241	prep_in Arg1:T502 Arg2:T518
+R242	punct Arg1:T494 Arg2:T519

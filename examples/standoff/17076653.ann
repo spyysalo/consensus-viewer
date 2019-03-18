@@ -1,0 +1,313 @@
+T20	dis 36 52	Multiple Myeloma
+T1	Token 0 6	Recent
+T2	Token 7 15	advances
+T3	Token 16 18	in
+T4	Token 19 22	the
+T5	Token 23 32	treatment
+T6	Token 33 35	of
+T7	Token 36 44	Multiple
+T8	Token 45 52	Myeloma
+T9	Token 52 53	.
+R1	amod Arg1:T2 Arg2:T1
+R2	det Arg1:T5 Arg2:T4
+R3	prep_in Arg1:T2 Arg2:T5
+R4	amod Arg1:T8 Arg2:T7
+R5	prep_of Arg1:T5 Arg2:T8
+R6	punct Arg1:T2 Arg2:T9
+T74	dis 54 70	Multiple Myeloma
+T21	Token 54 62	Multiple
+T22	Token 63 70	Myeloma
+T23	Token 71 72	(
+T24	Token 72 74	MM
+T25	Token 74 75	)
+T26	Token 76 83	remains
+T27	Token 84 86	an
+T28	Token 87 96	incurable
+T29	Token 97 103	plasma
+T30	Token 104 108	cell
+T31	Token 109 119	malignancy
+T32	Token 120 122	in
+T33	Token 123 126	the
+T34	Token 127 131	bone
+T35	Token 132 138	marrow
+T36	Token 139 140	(
+T37	Token 140 142	BM
+T38	Token 142 143	)
+T39	Token 144 151	despite
+T40	Token 152 164	conventional
+T41	Token 165 174	therapies
+T42	Token 175 177	as
+T43	Token 178 182	well
+T44	Token 183 185	as
+T45	Token 186 195	high-dose
+T46	Token 196 205	therapies
+T47	Token 206 210	with
+T48	Token 211 215	stem
+T49	Token 216 220	cell
+T50	Token 221 228	support
+T51	Token 228 229	.
+R7	amod Arg1:T22 Arg2:T21
+R8	nsubj Arg1:T31 Arg2:T22
+R9	punct Arg1:T24 Arg2:T23
+R10	abbrev Arg1:T22 Arg2:T24
+R11	punct Arg1:T24 Arg2:T25
+R12	cop Arg1:T31 Arg2:T26
+R13	det Arg1:T31 Arg2:T27
+R14	amod Arg1:T31 Arg2:T28
+R15	nn Arg1:T31 Arg2:T29
+R16	nn Arg1:T31 Arg2:T30
+R17	det Arg1:T35 Arg2:T33
+R18	nn Arg1:T35 Arg2:T34
+R19	prep_in Arg1:T31 Arg2:T35
+R20	punct Arg1:T37 Arg2:T36
+R21	abbrev Arg1:T35 Arg2:T37
+R22	punct Arg1:T37 Arg2:T38
+R23	amod Arg1:T41 Arg2:T40
+R24	prep_despite Arg1:T31 Arg2:T41
+R25	amod Arg1:T46 Arg2:T45
+R26	prep_despite Arg1:T31 Arg2:T46
+R27	conj_and Arg1:T41 Arg2:T46
+R28	nn Arg1:T50 Arg2:T48
+R29	nn Arg1:T50 Arg2:T49
+R30	prep_with Arg1:T46 Arg2:T50
+R31	punct Arg1:T31 Arg2:T51
+T75	Token 230 239	Therefore
+T76	Token 240 245	novel
+T77	Token 246 264	biologically-based
+T78	Token 265 276	therapeutic
+T79	Token 277 287	approaches
+T80	Token 288 291	are
+T81	Token 292 300	required
+T82	Token 300 301	.
+R32	advmod Arg1:T79 Arg2:T75
+R33	amod Arg1:T79 Arg2:T76
+R34	amod Arg1:T79 Arg2:T77
+R35	amod Arg1:T79 Arg2:T78
+R36	nsubjpass Arg1:T81 Arg2:T79
+R37	auxpass Arg1:T81 Arg2:T80
+R38	punct Arg1:T81 Arg2:T82
+T89	Token 302 310	Recently
+T90	Token 310 311	,
+T91	Token 312 321	intensive
+T92	Token 322 332	laboratory
+T93	Token 333 336	and
+T94	Token 337 348	preclinical
+T95	Token 349 356	studies
+T96	Token 357 361	have
+T97	Token 362 372	identified
+T98	Token 373 376	and
+T99	Token 377 386	validated
+T100	Token 387 398	therapeutic
+T101	Token 399 408	molecular
+T102	Token 409 416	targets
+T103	Token 417 419	in
+T104	Token 420 422	MM
+T105	Token 422 423	.
+R39	advmod Arg1:T97 Arg2:T89
+R40	punct Arg1:T97 Arg2:T90
+R41	amod Arg1:T95 Arg2:T91
+R42	amod Arg1:T95 Arg2:T92
+R43	conj_and Arg1:T92 Arg2:T94
+R44	amod Arg1:T95 Arg2:T94
+R45	nsubj Arg1:T97 Arg2:T95
+R46	nsubj Arg1:T99 Arg2:T95
+R47	aux Arg1:T97 Arg2:T96
+R48	conj_and Arg1:T97 Arg2:T99
+R49	amod Arg1:T102 Arg2:T100
+R50	amod Arg1:T102 Arg2:T101
+R51	dobj Arg1:T97 Arg2:T102
+R52	prep_in Arg1:T102 Arg2:T104
+R53	punct Arg1:T97 Arg2:T105
+T122	Token 424 426	In
+T123	Token 427 437	particular
+T124	Token 437 438	,
+T125	Token 439 450	recognition
+T126	Token 451 453	of
+T127	Token 454 457	the
+T128	Token 458 466	biologic
+T129	Token 467 479	significance
+T130	Token 480 482	of
+T131	Token 483 486	the
+T132	Token 487 489	BM
+T133	Token 490 506	microenvironment
+T134	Token 507 509	in
+T135	Token 510 512	MM
+T136	Token 513 525	pathogenesis
+T137	Token 526 529	and
+T138	Token 530 532	as
+T139	Token 533 534	a
+T140	Token 535 544	potential
+T141	Token 545 551	target
+T142	Token 552 555	for
+T143	Token 556 561	novel
+T144	Token 562 574	therapeutics
+T145	Token 575 578	has
+T146	Token 579 586	derived
+T147	Token 587 594	several
+T148	Token 595 604	promising
+T149	Token 605 615	approaches
+T150	Token 615 616	.
+R54	prep_in Arg1:T146 Arg2:T123
+R55	punct Arg1:T146 Arg2:T124
+R56	nsubj Arg1:T146 Arg2:T125
+R57	det Arg1:T129 Arg2:T127
+R58	amod Arg1:T129 Arg2:T128
+R59	prep_of Arg1:T125 Arg2:T129
+R60	prep_of Arg1:T125 Arg2:T129
+R61	conj_and Arg1:T129 Arg2:T129
+R62	det Arg1:T133 Arg2:T131
+R63	nn Arg1:T133 Arg2:T132
+R64	prep_of Arg1:T129 Arg2:T133
+R65	nn Arg1:T136 Arg2:T135
+R66	prep_in Arg1:T129 Arg2:T136
+R67	det Arg1:T141 Arg2:T139
+R68	amod Arg1:T141 Arg2:T140
+R69	prep_as Arg1:T129 Arg2:T141
+R70	amod Arg1:T144 Arg2:T143
+R71	prep_for Arg1:T141 Arg2:T144
+R72	aux Arg1:T146 Arg2:T145
+R73	amod Arg1:T149 Arg2:T147
+R74	amod Arg1:T149 Arg2:T148
+R75	dobj Arg1:T146 Arg2:T149
+R76	punct Arg1:T146 Arg2:T150
+T254	che 653 664	thalidomide
+T255	che 665 673	thalomid
+T256	che 708 720	lenalidomide
+T257	che 721 729	Revlimid
+T258	che 756 766	bortezomib
+T259	che 767 774	Velcade
+T174	Token 617 622	Novel
+T175	Token 623 626	FDA
+T176	Token 627 635	approved
+T177	Token 636 642	agents
+T178	Token 643 652	including
+T179	Token 653 664	thalidomide
+T180	Token 664 665	/
+T181	Token 665 673	thalomid
+T182	Token 673 674	,
+T183	Token 675 678	its
+T184	Token 679 695	immunomodulatory
+T185	Token 696 707	derivatives
+T186	Token 708 720	lenalidomide
+T187	Token 720 721	/
+T188	Token 721 729	Revlimid
+T189	Token 729 730	,
+T190	Token 731 734	and
+T191	Token 735 745	proteasome
+T192	Token 746 755	inhibitor
+T193	Token 756 766	bortezomib
+T194	Token 766 767	/
+T195	Token 767 774	Velcade
+T196	Token 775 778	are
+T197	Token 779 787	directed
+T198	Token 788 790	at
+T199	Token 791 800	molecular
+T200	Token 801 808	targets
+T201	Token 809 812	not
+T202	Token 813 817	only
+T203	Token 818 820	in
+T204	Token 821 823	MM
+T205	Token 824 829	cells
+T206	Token 830 833	but
+T207	Token 834 838	also
+T208	Token 839 841	in
+T209	Token 842 845	its
+T210	Token 846 848	BM
+T211	Token 849 855	milieu
+T212	Token 855 856	,
+T213	Token 857 860	and
+T214	Token 861 865	have
+T215	Token 866 873	already
+T216	Token 874 882	achieved
+T217	Token 883 892	promising
+T218	Token 893 900	results
+T219	Token 901 903	in
+T220	Token 904 912	clinical
+T221	Token 913 920	studies
+T222	Token 920 921	.
+R77	amod Arg1:T177 Arg2:T174
+R78	nn Arg1:T177 Arg2:T175
+R79	amod Arg1:T177 Arg2:T176
+R80	nsubjpass Arg1:T197 Arg2:T177
+R81	nsubjpass Arg1:T216 Arg2:T177
+R82	prep_including Arg1:T177 Arg2:T179
+R83	punct Arg1:T179 Arg2:T182
+R84	poss Arg1:T185 Arg2:T183
+R85	amod Arg1:T185 Arg2:T184
+R86	prep_including Arg1:T177 Arg2:T185
+R87	conj_and Arg1:T179 Arg2:T185
+R88	dep Arg1:T185 Arg2:T186
+R89	punct Arg1:T179 Arg2:T189
+R90	nn Arg1:T193 Arg2:T191
+R91	nn Arg1:T193 Arg2:T192
+R92	prep_including Arg1:T177 Arg2:T193
+R93	conj_and Arg1:T179 Arg2:T193
+R94	auxpass Arg1:T197 Arg2:T196
+R95	amod Arg1:T200 Arg2:T199
+R96	prep_at Arg1:T197 Arg2:T200
+R97	neg Arg1:T202 Arg2:T201
+R98	preconj Arg1:T200 Arg2:T202
+R99	nn Arg1:T205 Arg2:T204
+R100	prep_in Arg1:T200 Arg2:T205
+R101	poss Arg1:T211 Arg2:T209
+R102	nn Arg1:T211 Arg2:T210
+R103	prep_in Arg1:T200 Arg2:T211
+R104	conj_and Arg1:T205 Arg2:T211
+R105	punct Arg1:T197 Arg2:T212
+R106	aux Arg1:T216 Arg2:T214
+R107	advmod Arg1:T216 Arg2:T215
+R108	conj_and Arg1:T197 Arg2:T216
+R109	amod Arg1:T218 Arg2:T217
+R110	dobj Arg1:T216 Arg2:T218
+R111	amod Arg1:T221 Arg2:T220
+R112	prep_in Arg1:T216 Arg2:T221
+R113	punct Arg1:T197 Arg2:T222
+R114	slash Arg1:T179 Arg2:T181
+R115	slash Arg1:T186 Arg2:T188
+R116	slash Arg1:T193 Arg2:T195
+T260	Token 922 926	Here
+T261	Token 927 929	we
+T262	Token 930 937	discuss
+T263	Token 938 941	the
+T264	Token 942 952	mechanisms
+T265	Token 953 955	of
+T266	Token 956 962	action
+T267	Token 963 965	of
+T268	Token 966 971	these
+T269	Token 972 977	novel
+T270	Token 978 983	drugs
+T271	Token 984 987	and
+T272	Token 988 993	their
+T273	Token 994 1002	clinical
+T274	Token 1003 1014	application
+T275	Token 1014 1015	,
+T276	Token 1016 1021	alone
+T277	Token 1022 1024	or
+T278	Token 1025 1033	combined
+T279	Token 1034 1038	with
+T280	Token 1039 1051	conventional
+T281	Token 1052 1054	or
+T282	Token 1055 1060	novel
+T283	Token 1061 1066	drugs
+T284	Token 1066 1067	.
+R117	advmod Arg1:T262 Arg2:T260
+R118	nsubj Arg1:T262 Arg2:T261
+R119	det Arg1:T264 Arg2:T263
+R120	dobj Arg1:T262 Arg2:T264
+R121	prep_of Arg1:T264 Arg2:T266
+R122	det Arg1:T270 Arg2:T268
+R123	amod Arg1:T270 Arg2:T269
+R124	prep_of Arg1:T266 Arg2:T270
+R125	poss Arg1:T274 Arg2:T272
+R126	amod Arg1:T274 Arg2:T273
+R127	prep_of Arg1:T266 Arg2:T274
+R128	conj_and Arg1:T270 Arg2:T274
+R129	punct Arg1:T274 Arg2:T275
+R130	dep Arg1:T274 Arg2:T276
+R131	dep Arg1:T274 Arg2:T278
+R132	conj_or Arg1:T276 Arg2:T278
+R133	amod Arg1:T283 Arg2:T280
+R134	conj_or Arg1:T280 Arg2:T282
+R135	amod Arg1:T283 Arg2:T282
+R136	prep_with Arg1:T278 Arg2:T283
+R137	punct Arg1:T262 Arg2:T284

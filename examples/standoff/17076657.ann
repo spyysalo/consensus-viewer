@@ -1,0 +1,451 @@
+T38	org 12 17	human
+T39	org 113 117	mice
+T40	che 73 77	MPTP
+T41	ggp 0 55	Recombinant human granulocyte colony-stimulating factor
+T42	ggp 130 135	Bcl-2
+T43	ggp 136 139	Bax
+T1	Token 0 11	Recombinant
+T2	Token 12 17	human
+T3	Token 18 29	granulocyte
+T4	Token 30 48	colony-stimulating
+T5	Token 49 55	factor
+T6	Token 56 64	protects
+T7	Token 65 72	against
+T8	Token 73 77	MPTP
+T9	Token 77 78	-
+T10	Token 78 85	induced
+T11	Token 86 98	dopaminergic
+T12	Token 99 103	cell
+T13	Token 104 109	death
+T14	Token 110 112	in
+T15	Token 113 117	mice
+T16	Token 118 120	by
+T17	Token 121 129	altering
+T18	Token 130 135	Bcl-2
+T19	Token 135 136	/
+T20	Token 136 139	Bax
+T21	Token 140 150	expression
+T22	Token 151 157	levels
+T23	Token 157 158	.
+R1	amod Arg1:T5 Arg2:T1
+R2	amod Arg1:T5 Arg2:T2
+R3	nn Arg1:T5 Arg2:T3
+R4	amod Arg1:T5 Arg2:T4
+R5	nsubj Arg1:T6 Arg2:T5
+R6	amod Arg1:T13 Arg2:T10
+R7	amod Arg1:T13 Arg2:T11
+R8	nn Arg1:T13 Arg2:T12
+R9	prep_against Arg1:T6 Arg2:T13
+R10	prep_in Arg1:T13 Arg2:T15
+R11	prepc_by Arg1:T6 Arg2:T17
+R12	nn Arg1:T22 Arg2:T18
+R13	nn Arg1:T22 Arg2:T21
+R14	dobj Arg1:T17 Arg2:T22
+R15	punct Arg1:T6 Arg2:T23
+R16	hyphen Arg1:T10 Arg2:T8
+R17	slash Arg1:T18 Arg2:T20
+T80	dis 255 276	hematologic disorders
+T81	ggp 159 196	Granulocyte colony-stimulating factor
+T82	ggp 198 203	G-CSF
+T44	Token 159 170	Granulocyte
+T45	Token 171 189	colony-stimulating
+T46	Token 190 196	factor
+T47	Token 197 198	(
+T48	Token 198 203	G-CSF
+T49	Token 203 204	)
+T50	Token 205 208	has
+T51	Token 209 213	been
+T52	Token 214 218	used
+T53	Token 219 222	for
+T54	Token 223 226	the
+T55	Token 227 236	treatment
+T56	Token 237 239	of
+T57	Token 240 251	neutropenia
+T58	Token 252 254	in
+T59	Token 255 266	hematologic
+T60	Token 267 276	disorders
+T61	Token 276 277	.
+R18	nn Arg1:T46 Arg2:T44
+R19	amod Arg1:T46 Arg2:T45
+R20	nsubjpass Arg1:T52 Arg2:T46
+R21	punct Arg1:T48 Arg2:T47
+R22	appos Arg1:T46 Arg2:T48
+R23	punct Arg1:T48 Arg2:T49
+R24	aux Arg1:T52 Arg2:T50
+R25	auxpass Arg1:T52 Arg2:T51
+R26	det Arg1:T55 Arg2:T54
+R27	prep_for Arg1:T52 Arg2:T55
+R28	prep_of Arg1:T55 Arg2:T57
+R29	amod Arg1:T60 Arg2:T59
+R30	prep_in Arg1:T57 Arg2:T60
+R31	punct Arg1:T52 Arg2:T61
+T106	dis 332 352	neurological disease
+T107	ggp 309 314	G-CSF
+T83	Token 278 281	The
+T84	Token 282 297	neuroprotective
+T85	Token 298 305	effects
+T86	Token 306 308	of
+T87	Token 309 314	G-CSF
+T88	Token 315 319	were
+T89	Token 320 328	reported
+T90	Token 329 331	in
+T91	Token 332 344	neurological
+T92	Token 345 352	disease
+T93	Token 353 359	models
+T94	Token 359 360	.
+R32	det Arg1:T85 Arg2:T83
+R33	amod Arg1:T85 Arg2:T84
+R34	nsubjpass Arg1:T89 Arg2:T85
+R35	prep_of Arg1:T85 Arg2:T87
+R36	auxpass Arg1:T89 Arg2:T88
+R37	amod Arg1:T93 Arg2:T91
+R38	nn Arg1:T93 Arg2:T92
+R39	prep_in Arg1:T89 Arg2:T93
+R40	punct Arg1:T89 Arg2:T94
+T158	org 479 484	mouse
+T159	che 450 454	MPTP
+T160	dis 494 513	Parkinson's disease
+T161	ggp 403 408	G-CSF
+T108	Token 361 363	In
+T109	Token 364 367	the
+T110	Token 368 375	present
+T111	Token 376 381	study
+T112	Token 381 382	,
+T113	Token 383 385	we
+T114	Token 386 394	examined
+T115	Token 395 402	whether
+T116	Token 403 408	G-CSF
+T117	Token 409 412	can
+T118	Token 413 420	protect
+T119	Token 421 433	dopaminergic
+T120	Token 434 441	neurons
+T121	Token 442 449	against
+T122	Token 450 454	MPTP
+T123	Token 454 455	-
+T124	Token 455 462	induced
+T125	Token 463 467	cell
+T126	Token 468 473	death
+T127	Token 474 476	in
+T128	Token 477 478	a
+T129	Token 479 484	mouse
+T130	Token 485 490	model
+T131	Token 491 493	of
+T132	Token 494 503	Parkinson
+T133	Token 503 505	's
+T134	Token 506 513	disease
+T135	Token 513 514	.
+R41	det Arg1:T111 Arg2:T109
+R42	amod Arg1:T111 Arg2:T110
+R43	prep_in Arg1:T114 Arg2:T111
+R44	punct Arg1:T114 Arg2:T112
+R45	nsubj Arg1:T114 Arg2:T113
+R46	complm Arg1:T118 Arg2:T115
+R47	nsubj Arg1:T118 Arg2:T116
+R48	aux Arg1:T118 Arg2:T117
+R49	ccomp Arg1:T114 Arg2:T118
+R50	amod Arg1:T120 Arg2:T119
+R51	dobj Arg1:T118 Arg2:T120
+R52	amod Arg1:T126 Arg2:T124
+R53	nn Arg1:T126 Arg2:T125
+R54	prep_against Arg1:T118 Arg2:T126
+R55	det Arg1:T130 Arg2:T128
+R56	nn Arg1:T130 Arg2:T129
+R57	prep_in Arg1:T126 Arg2:T130
+R58	poss Arg1:T134 Arg2:T132
+R59	prep_of Arg1:T130 Arg2:T134
+R60	punct Arg1:T114 Arg2:T135
+R61	hyphen Arg1:T124 Arg2:T122
+T253	org 767 771	mice
+T254	che 570 574	MPTP
+T255	che 630 634	MPTP
+T256	che 698 702	MPTP
+T257	che 737 741	MPTP
+T258	ggp 655 660	G-CSF
+T162	Token 515 519	Mice
+T163	Token 520 522	of
+T164	Token 523 526	one
+T165	Token 527 532	group
+T166	Token 533 537	were
+T167	Token 538 546	injected
+T168	Token 547 564	intraperitoneally
+T169	Token 565 569	with
+T170	Token 570 574	MPTP
+T171	Token 575 578	for
+T172	Token 579 583	five
+T173	Token 584 595	consecutive
+T174	Token 596 600	days
+T175	Token 600 601	,
+T176	Token 602 607	those
+T177	Token 608 610	of
+T178	Token 611 618	another
+T179	Token 619 624	group
+T180	Token 625 629	with
+T181	Token 630 634	MPTP
+T182	Token 635 638	and
+T183	Token 639 654	intraperitoneal
+T184	Token 655 660	G-CSF
+T185	Token 661 663	at
+T186	Token 664 665	2
+T187	Token 666 670	days
+T188	Token 671 674	and
+T189	Token 675 676	1
+T190	Token 677 680	day
+T191	Token 681 687	before
+T192	Token 688 691	the
+T193	Token 692 697	first
+T194	Token 698 702	MPTP
+T195	Token 703 712	injection
+T196	Token 712 713	,
+T197	Token 714 717	and
+T198	Token 718 720	30
+T199	Token 721 724	min
+T200	Token 725 731	before
+T201	Token 732 736	each
+T202	Token 737 741	MPTP
+T203	Token 742 751	injection
+T204	Token 751 752	,
+T205	Token 753 758	while
+T206	Token 759 766	control
+T207	Token 767 771	mice
+T208	Token 772 780	received
+T209	Token 781 787	saline
+T210	Token 788 798	injections
+T211	Token 798 799	.
+R62	nsubjpass Arg1:T167 Arg2:T162
+R63	num Arg1:T165 Arg2:T164
+R64	prep_of Arg1:T162 Arg2:T165
+R65	auxpass Arg1:T167 Arg2:T166
+R66	advmod Arg1:T167 Arg2:T168
+R67	prep_with Arg1:T167 Arg2:T170
+R68	num Arg1:T174 Arg2:T172
+R69	amod Arg1:T174 Arg2:T173
+R70	prep_for Arg1:T167 Arg2:T174
+R71	punct Arg1:T174 Arg2:T175
+R72	prep_for Arg1:T167 Arg2:T176
+R73	conj_and Arg1:T174 Arg2:T176
+R74	det Arg1:T179 Arg2:T178
+R75	prep_of Arg1:T176 Arg2:T179
+R76	amod Arg1:T184 Arg2:T181
+R77	conj_and Arg1:T181 Arg2:T183
+R78	amod Arg1:T184 Arg2:T183
+R79	prep_with Arg1:T179 Arg2:T184
+R80	num Arg1:T187 Arg2:T186
+R81	prep_at Arg1:T184 Arg2:T187
+R82	num Arg1:T190 Arg2:T189
+R83	prep_with Arg1:T179 Arg2:T190
+R84	conj_and Arg1:T184 Arg2:T190
+R85	det Arg1:T195 Arg2:T192
+R86	amod Arg1:T195 Arg2:T193
+R87	nn Arg1:T195 Arg2:T194
+R88	prep_before Arg1:T190 Arg2:T195
+R89	punct Arg1:T174 Arg2:T196
+R90	num Arg1:T199 Arg2:T198
+R91	prep_for Arg1:T167 Arg2:T199
+R92	conj_and Arg1:T174 Arg2:T199
+R93	det Arg1:T203 Arg2:T201
+R94	nn Arg1:T203 Arg2:T202
+R95	prep_before Arg1:T199 Arg2:T203
+R96	punct Arg1:T167 Arg2:T204
+R97	mark Arg1:T208 Arg2:T205
+R98	nn Arg1:T207 Arg2:T206
+R99	nsubj Arg1:T208 Arg2:T207
+R100	advcl Arg1:T167 Arg2:T208
+R101	nn Arg1:T210 Arg2:T209
+R102	dobj Arg1:T208 Arg2:T210
+R103	punct Arg1:T167 Arg2:T211
+T310	ggp 951 956	Bcl-2
+T311	ggp 961 972	Bax protein
+T259	Token 800 820	Immunohistochemistry
+T260	Token 820 821	,
+T261	Token 822 829	western
+T262	Token 830 838	blotting
+T263	Token 839 847	analysis
+T264	Token 847 848	,
+T265	Token 849 852	and
+T266	Token 853 857	HPLC
+T267	Token 858 862	were
+T268	Token 863 872	performed
+T269	Token 873 875	to
+T270	Token 876 884	evaluate
+T271	Token 885 891	damage
+T272	Token 892 894	of
+T273	Token 895 905	substantia
+T274	Token 906 911	nigra
+T275	Token 912 924	dopaminergic
+T276	Token 925 932	neurons
+T277	Token 933 936	and
+T278	Token 937 947	expression
+T279	Token 948 950	of
+T280	Token 951 956	Bcl-2
+T281	Token 957 960	and
+T282	Token 961 964	Bax
+T283	Token 965 972	protein
+T284	Token 972 973	.
+R104	nsubjpass Arg1:T268 Arg2:T259
+R105	xsubj Arg1:T270 Arg2:T259
+R106	punct Arg1:T259 Arg2:T260
+R107	nn Arg1:T263 Arg2:T261
+R108	nn Arg1:T263 Arg2:T262
+R109	conj_and Arg1:T259 Arg2:T263
+R110	nsubjpass Arg1:T268 Arg2:T263
+R111	xsubj Arg1:T270 Arg2:T263
+R112	punct Arg1:T259 Arg2:T264
+R113	conj_and Arg1:T259 Arg2:T266
+R114	nsubjpass Arg1:T268 Arg2:T266
+R115	xsubj Arg1:T270 Arg2:T266
+R116	auxpass Arg1:T268 Arg2:T267
+R117	aux Arg1:T270 Arg2:T269
+R118	xcomp Arg1:T268 Arg2:T270
+R119	dobj Arg1:T270 Arg2:T271
+R120	nn Arg1:T274 Arg2:T273
+R121	amod Arg1:T276 Arg2:T274
+R122	amod Arg1:T276 Arg2:T275
+R123	prep_of Arg1:T271 Arg2:T276
+R124	dobj Arg1:T270 Arg2:T278
+R125	conj_and Arg1:T271 Arg2:T278
+R126	prep_of Arg1:T278 Arg2:T280
+R127	prep_of Arg1:T278 Arg2:T282
+R128	conj_and Arg1:T280 Arg2:T282
+R129	dep Arg1:T280 Arg2:T283
+R130	punct Arg1:T268 Arg2:T284
+T330	che 974 978	MPTP
+T312	Token 974 978	MPTP
+T313	Token 979 986	induced
+T314	Token 987 999	dopaminergic
+T315	Token 1000 1004	cell
+T316	Token 1005 1010	death
+T317	Token 1011 1013	in
+T318	Token 1014 1017	the
+T319	Token 1018 1028	substantia
+T320	Token 1029 1034	nigra
+T321	Token 1034 1035	.
+R131	nsubj Arg1:T313 Arg2:T312
+R132	amod Arg1:T316 Arg2:T314
+R133	nn Arg1:T316 Arg2:T315
+R134	dobj Arg1:T313 Arg2:T316
+R135	det Arg1:T320 Arg2:T318
+R136	nn Arg1:T320 Arg2:T319
+R137	prep_in Arg1:T313 Arg2:T320
+R138	punct Arg1:T313 Arg2:T321
+T377	che 1066 1070	MPTP
+T378	che 1087 1095	tyrosine
+T379	ggp 1036 1041	G-CSF
+T380	ggp 1087 1107	tyrosine hydroxylase
+T381	ggp 1147 1160	Bcl-2 protein
+T382	ggp 1175 1186	Bax protein
+T331	Token 1036 1041	G-CSF
+T332	Token 1042 1055	significantly
+T333	Token 1056 1065	prevented
+T334	Token 1066 1070	MPTP
+T335	Token 1070 1071	-
+T336	Token 1071 1078	induced
+T337	Token 1079 1083	loss
+T338	Token 1084 1086	of
+T339	Token 1087 1095	tyrosine
+T340	Token 1096 1107	hydroxylase
+T341	Token 1107 1108	-
+T342	Token 1108 1116	positive
+T343	Token 1117 1124	neurons
+T344	Token 1125 1126	(
+T345	Token 1126 1127	p
+T346	Token 1128 1129	<
+T347	Token 1130 1134	0.05
+T348	Token 1134 1135	)
+T349	Token 1135 1136	,
+T350	Token 1137 1146	increased
+T351	Token 1147 1152	Bcl-2
+T352	Token 1153 1160	protein
+T353	Token 1161 1164	and
+T354	Token 1165 1174	decreased
+T355	Token 1175 1178	Bax
+T356	Token 1179 1186	protein
+T357	Token 1187 1197	expression
+T358	Token 1197 1198	.
+R139	nsubj Arg1:T333 Arg2:T331
+R140	advmod Arg1:T333 Arg2:T332
+R141	amod Arg1:T337 Arg2:T336
+R142	dobj Arg1:T333 Arg2:T337
+R143	dep Arg1:T342 Arg2:T339
+R144	amod Arg1:T343 Arg2:T342
+R145	prep_of Arg1:T337 Arg2:T343
+R146	punct Arg1:T346 Arg2:T344
+R147	nn Arg1:T346 Arg2:T345
+R148	appos Arg1:T343 Arg2:T346
+R149	num Arg1:T346 Arg2:T347
+R150	punct Arg1:T346 Arg2:T348
+R151	punct Arg1:T343 Arg2:T349
+R152	amod Arg1:T352 Arg2:T350
+R153	nn Arg1:T352 Arg2:T351
+R154	appos Arg1:T343 Arg2:T352
+R155	amod Arg1:T357 Arg2:T354
+R156	nn Arg1:T357 Arg2:T355
+R157	nn Arg1:T357 Arg2:T356
+R158	appos Arg1:T343 Arg2:T357
+R159	conj_and Arg1:T352 Arg2:T357
+R160	punct Arg1:T333 Arg2:T358
+R161	hyphen Arg1:T336 Arg2:T334
+R162	hyphen Arg1:T342 Arg2:T340
+T443	org 1403 1407	mice
+T444	che 1265 1269	MPTP
+T445	ggp 1226 1231	G-CSF
+T446	ggp 1331 1336	Bcl-2
+T447	ggp 1370 1373	Bax
+T383	Token 1199 1202	Our
+T384	Token 1203 1211	findings
+T385	Token 1212 1220	indicate
+T386	Token 1221 1225	that
+T387	Token 1226 1231	G-CSF
+T388	Token 1232 1240	provides
+T389	Token 1241 1256	neuroprotection
+T390	Token 1257 1264	against
+T391	Token 1265 1269	MPTP
+T392	Token 1269 1270	-
+T393	Token 1270 1277	induced
+T394	Token 1278 1282	cell
+T395	Token 1283 1288	death
+T396	Token 1289 1292	and
+T397	Token 1293 1297	this
+T398	Token 1298 1304	effect
+T399	Token 1305 1307	is
+T400	Token 1308 1316	mediated
+T401	Token 1317 1319	by
+T402	Token 1320 1330	increasing
+T403	Token 1331 1336	Bcl-2
+T404	Token 1337 1347	expression
+T405	Token 1348 1354	levels
+T406	Token 1355 1358	and
+T407	Token 1359 1369	decreasing
+T408	Token 1370 1373	Bax
+T409	Token 1374 1384	expression
+T410	Token 1385 1391	levels
+T411	Token 1392 1394	in
+T412	Token 1395 1402	C57BL/6
+T413	Token 1403 1407	mice
+T414	Token 1407 1408	.
+R163	poss Arg1:T384 Arg2:T383
+R164	nsubj Arg1:T385 Arg2:T384
+R165	complm Arg1:T388 Arg2:T386
+R166	nsubj Arg1:T388 Arg2:T387
+R167	ccomp Arg1:T385 Arg2:T388
+R168	dobj Arg1:T388 Arg2:T389
+R169	amod Arg1:T395 Arg2:T393
+R170	nn Arg1:T395 Arg2:T394
+R171	prep_against Arg1:T389 Arg2:T395
+R172	det Arg1:T398 Arg2:T397
+R173	nsubjpass Arg1:T400 Arg2:T398
+R174	auxpass Arg1:T400 Arg2:T399
+R175	ccomp Arg1:T385 Arg2:T400
+R176	conj_and Arg1:T388 Arg2:T400
+R177	agent Arg1:T400 Arg2:T402
+R178	nn Arg1:T405 Arg2:T403
+R179	nn Arg1:T405 Arg2:T404
+R180	dobj Arg1:T402 Arg2:T405
+R181	agent Arg1:T400 Arg2:T407
+R182	conj_and Arg1:T402 Arg2:T407
+R183	nn Arg1:T410 Arg2:T408
+R184	nn Arg1:T410 Arg2:T409
+R185	dobj Arg1:T407 Arg2:T410
+R186	nn Arg1:T413 Arg2:T412
+R187	prep_in Arg1:T410 Arg2:T413
+R188	punct Arg1:T385 Arg2:T414
+R189	hyphen Arg1:T393 Arg2:T391

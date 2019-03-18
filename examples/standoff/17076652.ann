@@ -1,0 +1,653 @@
+T23	che 4 12	tyrosine
+T24	dis 51 75	chronic myeloid leukemia
+T25	ggp 0 19	New tyrosine kinase
+T1	Token 0 3	New
+T2	Token 4 12	tyrosine
+T3	Token 13 19	kinase
+T4	Token 20 30	inhibitors
+T5	Token 31 33	in
+T6	Token 34 37	the
+T7	Token 38 47	treatment
+T8	Token 48 50	of
+T9	Token 51 58	chronic
+T10	Token 59 66	myeloid
+T11	Token 67 75	leukemia
+T12	Token 75 76	.
+R1	amod Arg1:T4 Arg2:T1
+R2	nn Arg1:T4 Arg2:T2
+R3	nn Arg1:T4 Arg2:T3
+R4	det Arg1:T7 Arg2:T6
+R5	prep_in Arg1:T4 Arg2:T7
+R6	amod Arg1:T11 Arg2:T9
+R7	amod Arg1:T11 Arg2:T10
+R8	prep_of Arg1:T7 Arg2:T11
+R9	punct Arg1:T4 Arg2:T12
+T93	che 77 94	Imatinib mesylate
+T94	che 100 108	tyrosine
+T95	che 289 294	Ph(+)
+T96	dis 174 182	leukemia
+T97	dis 191 215	chronic myeloid leukemia
+T98	dis 217 220	CML
+T99	dis 226 287	Philadelphia chromosome positive acute lymphoblastic leukemia
+T100	dis 294 297	ALL
+T101	ggp 96 115	Abl tyrosine kinase
+T102	ggp 157 160	Bcr
+T103	ggp 161 164	Abl
+T26	Token 77 85	Imatinib
+T27	Token 86 94	mesylate
+T28	Token 94 95	,
+T29	Token 96 99	Abl
+T30	Token 100 108	tyrosine
+T31	Token 109 115	kinase
+T32	Token 116 125	inhibitor
+T33	Token 125 126	,
+T34	Token 127 130	has
+T35	Token 131 139	improved
+T36	Token 140 143	the
+T37	Token 144 153	treatment
+T38	Token 154 156	of
+T39	Token 157 160	Bcr
+T40	Token 160 161	-
+T41	Token 161 164	Abl
+T42	Token 164 165	-
+T43	Token 165 173	positive
+T44	Token 174 182	leukemia
+T45	Token 183 187	such
+T46	Token 188 190	as
+T47	Token 191 198	chronic
+T48	Token 199 206	myeloid
+T49	Token 207 215	leukemia
+T50	Token 216 217	(
+T51	Token 217 220	CML
+T52	Token 220 221	)
+T53	Token 222 225	and
+T54	Token 226 238	Philadelphia
+T55	Token 239 249	chromosome
+T56	Token 250 258	positive
+T57	Token 259 264	acute
+T58	Token 265 278	lymphoblastic
+T59	Token 279 287	leukemia
+T60	Token 288 289	(
+T61	Token 289 291	Ph
+T62	Token 291 292	(
+T63	Token 292 293	+
+T64	Token 293 294	)
+T65	Token 294 297	ALL
+T66	Token 297 298	)
+T67	Token 298 299	.
+R10	nn Arg1:T27 Arg2:T26
+R11	nsubj Arg1:T35 Arg2:T27
+R12	punct Arg1:T27 Arg2:T28
+R13	nn Arg1:T32 Arg2:T29
+R14	nn Arg1:T32 Arg2:T30
+R15	nn Arg1:T32 Arg2:T31
+R16	appos Arg1:T27 Arg2:T32
+R17	punct Arg1:T27 Arg2:T33
+R18	aux Arg1:T35 Arg2:T34
+R19	det Arg1:T37 Arg2:T36
+R20	dobj Arg1:T35 Arg2:T37
+R21	amod Arg1:T44 Arg2:T43
+R22	prep_of Arg1:T37 Arg2:T44
+R23	amod Arg1:T49 Arg2:T47
+R24	amod Arg1:T49 Arg2:T48
+R25	prep_of Arg1:T37 Arg2:T49
+R26	conj_such Arg1:T44 Arg2:T49
+R27	punct Arg1:T51 Arg2:T50
+R28	abbrev Arg1:T49 Arg2:T51
+R29	punct Arg1:T51 Arg2:T52
+R30	nn Arg1:T59 Arg2:T54
+R31	nn Arg1:T59 Arg2:T55
+R32	amod Arg1:T59 Arg2:T56
+R33	amod Arg1:T59 Arg2:T57
+R34	amod Arg1:T59 Arg2:T58
+R35	conj_such Arg1:T44 Arg2:T59
+R36	conj_and Arg1:T49 Arg2:T59
+R37	punct Arg1:T65 Arg2:T60
+R38	nn Arg1:T65 Arg2:T61
+R39	punct Arg1:T61 Arg2:T62
+R40	cc Arg1:T61 Arg2:T63
+R41	punct Arg1:T61 Arg2:T64
+R42	appos Arg1:T49 Arg2:T65
+R43	punct Arg1:T65 Arg2:T66
+R44	punct Arg1:T35 Arg2:T67
+R45	hyphen Arg1:T41 Arg2:T39
+R46	hyphen Arg1:T43 Arg2:T41
+T129	dis 355 377	advanced-stage disease
+T104	Token 300 307	However
+T105	Token 307 308	,
+T106	Token 309 319	resistance
+T107	Token 320 322	is
+T108	Token 323 328	often
+T109	Token 329 337	reported
+T110	Token 338 340	in
+T111	Token 341 349	patients
+T112	Token 350 354	with
+T113	Token 355 369	advanced-stage
+T114	Token 370 377	disease
+T115	Token 377 378	.
+R47	advmod Arg1:T109 Arg2:T104
+R48	punct Arg1:T109 Arg2:T105
+R49	nsubjpass Arg1:T109 Arg2:T106
+R50	auxpass Arg1:T109 Arg2:T107
+R51	advmod Arg1:T109 Arg2:T108
+R52	prep_in Arg1:T109 Arg2:T111
+R53	amod Arg1:T114 Arg2:T113
+R54	prep_with Arg1:T111 Arg2:T114
+R55	punct Arg1:T109 Arg2:T115
+T192	che 393 401	tyrosine
+T193	che 459 467	imatinib
+T194	ggp 393 408	tyrosine kinase
+T195	ggp 516 519	Bcr
+T196	ggp 520 523	Abl
+T197	ggp 555 572	Abl kinase domain
+T130	Token 379 386	Several
+T131	Token 387 392	novel
+T132	Token 393 401	tyrosine
+T133	Token 402 408	kinase
+T134	Token 409 419	inhibitors
+T135	Token 419 420	,
+T136	Token 421 426	which
+T137	Token 427 431	have
+T138	Token 432 436	been
+T139	Token 437 446	developed
+T140	Token 447 449	to
+T141	Token 450 458	override
+T142	Token 459 467	imatinib
+T143	Token 468 478	resistance
+T144	Token 479 489	mechanisms
+T145	Token 490 494	such
+T146	Token 495 497	as
+T147	Token 498 512	overexpression
+T148	Token 513 515	of
+T149	Token 516 519	Bcr
+T150	Token 519 520	-
+T151	Token 520 523	Abl
+T152	Token 524 527	and
+T153	Token 528 533	point
+T154	Token 534 543	mutations
+T155	Token 544 550	within
+T156	Token 551 554	the
+T157	Token 555 558	Abl
+T158	Token 559 565	kinase
+T159	Token 566 572	domain
+T160	Token 572 573	,
+T161	Token 574 577	are
+T162	Token 578 587	currently
+T163	Token 588 597	competing
+T164	Token 597 598	.
+R56	amod Arg1:T134 Arg2:T130
+R57	amod Arg1:T134 Arg2:T131
+R58	nn Arg1:T134 Arg2:T132
+R59	nn Arg1:T134 Arg2:T133
+R60	nsubjpass Arg1:T139 Arg2:T134
+R61	nsubj Arg1:T163 Arg2:T134
+R62	punct Arg1:T134 Arg2:T135
+R63	aux Arg1:T139 Arg2:T137
+R64	auxpass Arg1:T139 Arg2:T138
+R65	rcmod Arg1:T134 Arg2:T139
+R66	aux Arg1:T141 Arg2:T140
+R67	xcomp Arg1:T139 Arg2:T141
+R68	nn Arg1:T144 Arg2:T142
+R69	nn Arg1:T144 Arg2:T143
+R70	dobj Arg1:T141 Arg2:T144
+R71	prep_such_as Arg1:T144 Arg2:T147
+R72	nn Arg1:T154 Arg2:T151
+R73	conj_and Arg1:T151 Arg2:T153
+R74	nn Arg1:T154 Arg2:T153
+R75	prep_of Arg1:T147 Arg2:T154
+R76	det Arg1:T159 Arg2:T156
+R77	nn Arg1:T159 Arg2:T157
+R78	nn Arg1:T159 Arg2:T158
+R79	prep_within Arg1:T154 Arg2:T159
+R80	punct Arg1:T134 Arg2:T160
+R81	aux Arg1:T163 Arg2:T161
+R82	advmod Arg1:T163 Arg2:T162
+R83	punct Arg1:T163 Arg2:T164
+R84	hyphen Arg1:T151 Arg2:T149
+T237	che 617 625	tyrosine
+T238	che 675 678	ATP
+T239	che 695 698	ATP
+T240	ggp 613 632	Abl tyrosine kinase
+T198	Token 599 609	Inhibitors
+T199	Token 610 612	of
+T200	Token 613 616	Abl
+T201	Token 617 625	tyrosine
+T202	Token 626 632	kinase
+T203	Token 633 636	are
+T204	Token 637 644	divided
+T205	Token 645 649	into
+T206	Token 650 653	two
+T207	Token 654 658	main
+T208	Token 659 665	groups
+T209	Token 665 666	,
+T210	Token 667 673	namely
+T211	Token 673 674	,
+T212	Token 675 678	ATP
+T213	Token 678 679	-
+T214	Token 679 690	competitive
+T215	Token 691 694	and
+T216	Token 695 698	ATP
+T217	Token 699 714	non-competitive
+T218	Token 715 725	inhibitors
+T219	Token 725 726	.
+R85	nsubjpass Arg1:T204 Arg2:T198
+R86	nn Arg1:T202 Arg2:T200
+R87	nn Arg1:T202 Arg2:T201
+R88	prep_of Arg1:T198 Arg2:T202
+R89	auxpass Arg1:T204 Arg2:T203
+R90	num Arg1:T208 Arg2:T206
+R91	amod Arg1:T208 Arg2:T207
+R92	prep_into Arg1:T204 Arg2:T208
+R93	punct Arg1:T208 Arg2:T209
+R94	advmod Arg1:T208 Arg2:T210
+R95	punct Arg1:T208 Arg2:T211
+R96	amod Arg1:T218 Arg2:T214
+R97	dep Arg1:T217 Arg2:T216
+R98	conj_and Arg1:T214 Arg2:T217
+R99	amod Arg1:T218 Arg2:T217
+R100	appos Arg1:T208 Arg2:T218
+R101	punct Arg1:T204 Arg2:T219
+R102	hyphen Arg1:T214 Arg2:T212
+T280	che 737 740	ATP
+T281	che 827 849	2-phenylaminopyrimidin
+T282	ggp 803 806	Src
+T283	ggp 807 810	Abl
+T241	Token 727 735	Moreover
+T242	Token 735 736	,
+T243	Token 737 740	ATP
+T244	Token 740 741	-
+T245	Token 741 752	competitive
+T246	Token 753 763	inhibitors
+T247	Token 764 767	are
+T248	Token 768 772	fall
+T249	Token 773 777	into
+T250	Token 778 781	two
+T251	Token 782 792	subclasses
+T252	Token 792 793	,
+T253	Token 794 798	i.e.
+T254	Token 799 802	the
+T255	Token 803 806	Src
+T256	Token 806 807	/
+T257	Token 807 810	Abl
+T258	Token 811 821	inhibitors
+T259	Token 821 822	,
+T260	Token 823 826	and
+T261	Token 827 849	2-phenylaminopyrimidin
+T262	Token 849 850	-
+T263	Token 850 855	based
+T264	Token 856 865	compounds
+T265	Token 865 866	.
+R103	advmod Arg1:T248 Arg2:T241
+R104	punct Arg1:T248 Arg2:T242
+R105	amod Arg1:T246 Arg2:T245
+R106	nsubj Arg1:T248 Arg2:T246
+R107	aux Arg1:T248 Arg2:T247
+R108	num Arg1:T251 Arg2:T250
+R109	prep_into Arg1:T248 Arg2:T251
+R110	punct Arg1:T251 Arg2:T252
+R111	prep Arg1:T251 Arg2:T253
+R112	det Arg1:T258 Arg2:T254
+R113	nn Arg1:T258 Arg2:T255
+R114	pobj Arg1:T253 Arg2:T258
+R115	punct Arg1:T251 Arg2:T259
+R116	amod Arg1:T264 Arg2:T263
+R117	prep_into Arg1:T248 Arg2:T264
+R118	conj_and Arg1:T251 Arg2:T264
+R119	punct Arg1:T248 Arg2:T265
+R120	hyphen Arg1:T245 Arg2:T243
+R121	slash Arg1:T255 Arg2:T257
+R122	hyphen Arg1:T263 Arg2:T261
+T346	che 867 876	Dasatinib
+T347	che 887 897	BMS-354825
+T348	che 900 907	AP23464
+T349	che 909 916	SKI-606
+T350	che 921 929	PD166326
+T351	che 973 979	AMN107
+T352	che 984 990	NS-187
+T353	che 992 1000	INNO-406
+T354	ggp 900 907	AP23464
+T355	ggp 909 916	SKI-606
+T356	ggp 921 929	PD166326
+T357	ggp 948 951	Src
+T358	ggp 952 955	Abl
+T359	ggp 973 979	AMN107
+T284	Token 867 876	Dasatinib
+T285	Token 877 878	(
+T286	Token 878 886	formerly
+T287	Token 887 897	BMS-354825
+T288	Token 897 898	)
+T289	Token 898 899	,
+T290	Token 900 907	AP23464
+T291	Token 907 908	,
+T292	Token 909 916	SKI-606
+T293	Token 917 920	and
+T294	Token 921 929	PD166326
+T295	Token 930 933	are
+T296	Token 934 944	classified
+T297	Token 945 947	as
+T298	Token 948 951	Src
+T299	Token 951 952	/
+T300	Token 952 955	Abl
+T301	Token 956 966	inhibitors
+T302	Token 967 972	while
+T303	Token 973 979	AMN107
+T304	Token 980 983	and
+T305	Token 984 990	NS-187
+T306	Token 991 992	(
+T307	Token 992 1000	INNO-406
+T308	Token 1000 1001	)
+T309	Token 1002 1008	belong
+T310	Token 1009 1011	to
+T311	Token 1012 1015	the
+T312	Token 1016 1022	latter
+T313	Token 1023 1031	subclass
+T314	Token 1032 1034	of
+T315	Token 1035 1045	inhibitors
+T316	Token 1045 1046	.
+R123	nsubjpass Arg1:T296 Arg2:T284
+R124	punct Arg1:T287 Arg2:T285
+R125	advmod Arg1:T287 Arg2:T286
+R126	appos Arg1:T284 Arg2:T287
+R127	punct Arg1:T287 Arg2:T288
+R128	punct Arg1:T284 Arg2:T289
+R129	conj_and Arg1:T284 Arg2:T290
+R130	nsubjpass Arg1:T296 Arg2:T290
+R131	punct Arg1:T284 Arg2:T291
+R132	conj_and Arg1:T284 Arg2:T292
+R133	nsubjpass Arg1:T296 Arg2:T292
+R134	conj_and Arg1:T284 Arg2:T294
+R135	nsubjpass Arg1:T296 Arg2:T294
+R136	auxpass Arg1:T296 Arg2:T295
+R137	nn Arg1:T301 Arg2:T298
+R138	prep_as Arg1:T296 Arg2:T301
+R139	mark Arg1:T309 Arg2:T302
+R140	nsubj Arg1:T309 Arg2:T303
+R141	conj_and Arg1:T303 Arg2:T305
+R142	nsubj Arg1:T309 Arg2:T305
+R143	punct Arg1:T307 Arg2:T306
+R144	appos Arg1:T303 Arg2:T307
+R145	punct Arg1:T307 Arg2:T308
+R146	advcl Arg1:T296 Arg2:T309
+R147	det Arg1:T313 Arg2:T311
+R148	amod Arg1:T313 Arg2:T312
+R149	prep_to Arg1:T309 Arg2:T313
+R150	prep_of Arg1:T313 Arg2:T315
+R151	punct Arg1:T296 Arg2:T316
+R152	slash Arg1:T298 Arg2:T300
+T403	che 1087 1096	dasatinib
+T404	che 1101 1107	AMN107
+T360	Token 1047 1052	Among
+T361	Token 1053 1058	these
+T362	Token 1059 1065	agents
+T363	Token 1065 1066	,
+T364	Token 1067 1075	clinical
+T365	Token 1076 1083	studies
+T366	Token 1084 1086	on
+T367	Token 1087 1096	dasatinib
+T368	Token 1097 1100	and
+T369	Token 1101 1107	AMN107
+T370	Token 1108 1111	had
+T371	Token 1112 1119	started
+T372	Token 1120 1127	earlier
+T373	Token 1128 1132	than
+T374	Token 1133 1136	the
+T375	Token 1137 1143	others
+T376	Token 1144 1147	and
+T377	Token 1148 1157	favorable
+T378	Token 1158 1165	results
+T379	Token 1166 1169	are
+T380	Token 1170 1182	accumulating
+T381	Token 1182 1183	.
+R153	det Arg1:T362 Arg2:T361
+R154	prep_among Arg1:T371 Arg2:T362
+R155	punct Arg1:T371 Arg2:T363
+R156	amod Arg1:T365 Arg2:T364
+R157	nsubj Arg1:T371 Arg2:T365
+R158	prep_on Arg1:T365 Arg2:T367
+R159	prep_on Arg1:T365 Arg2:T369
+R160	conj_and Arg1:T367 Arg2:T369
+R161	aux Arg1:T371 Arg2:T370
+R162	advmod Arg1:T371 Arg2:T372
+R163	mark Arg1:T380 Arg2:T373
+R164	det Arg1:T375 Arg2:T374
+R165	nsubj Arg1:T380 Arg2:T375
+R166	amod Arg1:T378 Arg2:T377
+R167	conj_and Arg1:T375 Arg2:T378
+R168	nsubj Arg1:T380 Arg2:T378
+R169	aux Arg1:T380 Arg2:T379
+R170	dep Arg1:T372 Arg2:T380
+R171	punct Arg1:T371 Arg2:T381
+T440	che 1230 1236	NS-187
+T441	che 1238 1246	INNO-406
+T405	Token 1184 1192	Clinical
+T406	Token 1193 1200	studies
+T407	Token 1201 1203	of
+T408	Token 1204 1209	other
+T409	Token 1210 1219	compounds
+T410	Token 1220 1229	including
+T411	Token 1230 1236	NS-187
+T412	Token 1237 1238	(
+T413	Token 1238 1246	INNO-406
+T414	Token 1246 1247	)
+T415	Token 1248 1252	will
+T416	Token 1253 1255	be
+T417	Token 1256 1265	performed
+T418	Token 1266 1268	in
+T419	Token 1269 1274	rapid
+T420	Token 1275 1285	succession
+T421	Token 1285 1286	.
+R172	amod Arg1:T406 Arg2:T405
+R173	nsubjpass Arg1:T417 Arg2:T406
+R174	amod Arg1:T409 Arg2:T408
+R175	prep_of Arg1:T406 Arg2:T409
+R176	prep_including Arg1:T409 Arg2:T411
+R177	punct Arg1:T413 Arg2:T412
+R178	abbrev Arg1:T411 Arg2:T413
+R179	punct Arg1:T413 Arg2:T414
+R180	aux Arg1:T417 Arg2:T415
+R181	auxpass Arg1:T417 Arg2:T416
+R182	amod Arg1:T420 Arg2:T419
+R183	prep_in Arg1:T417 Arg2:T420
+R184	punct Arg1:T417 Arg2:T421
+T473	che 1324 1327	ATP
+T474	che 1376 1384	imatinib
+T442	Token 1287 1294	Because
+T443	Token 1295 1297	of
+T444	Token 1298 1301	its
+T445	Token 1302 1308	strong
+T446	Token 1309 1317	affinity
+T447	Token 1317 1318	,
+T448	Token 1319 1323	most
+T449	Token 1324 1327	ATP
+T450	Token 1328 1339	competitive
+T451	Token 1340 1350	inhibitors
+T452	Token 1351 1354	may
+T453	Token 1355 1357	be
+T454	Token 1358 1367	effective
+T455	Token 1368 1375	against
+T456	Token 1376 1384	imatinib
+T457	Token 1384 1385	-
+T458	Token 1385 1394	resistant
+T459	Token 1395 1403	patients
+T460	Token 1403 1404	.
+R185	prepc_because_of Arg1:T454 Arg2:T443
+R186	poss Arg1:T446 Arg2:T444
+R187	amod Arg1:T446 Arg2:T445
+R188	pobj Arg1:T454 Arg2:T446
+R189	punct Arg1:T454 Arg2:T447
+R190	amod Arg1:T451 Arg2:T448
+R191	nn Arg1:T451 Arg2:T449
+R192	amod Arg1:T451 Arg2:T450
+R193	nsubj Arg1:T454 Arg2:T451
+R194	aux Arg1:T454 Arg2:T452
+R195	cop Arg1:T454 Arg2:T453
+R196	amod Arg1:T459 Arg2:T458
+R197	prep_against Arg1:T454 Arg2:T459
+R198	punct Arg1:T454 Arg2:T460
+R199	hyphen Arg1:T458 Arg2:T456
+T520	che 1426 1429	ATP
+T521	ggp 1492 1505	T315I Bcr-Abl
+T475	Token 1405 1412	However
+T476	Token 1412 1413	,
+T477	Token 1414 1416	to
+T478	Token 1417 1421	date
+T479	Token 1421 1422	,
+T480	Token 1423 1425	an
+T481	Token 1426 1429	ATP
+T482	Token 1429 1430	-
+T483	Token 1430 1441	competitive
+T484	Token 1442 1451	inhibitor
+T485	Token 1452 1456	that
+T486	Token 1457 1460	can
+T487	Token 1461 1468	inhibit
+T488	Token 1469 1472	the
+T489	Token 1473 1488	phosphorylation
+T490	Token 1489 1491	of
+T491	Token 1492 1497	T315I
+T492	Token 1498 1505	Bcr-Abl
+T493	Token 1506 1509	has
+T494	Token 1510 1513	not
+T495	Token 1514 1517	yet
+T496	Token 1518 1522	been
+T497	Token 1523 1532	developed
+T498	Token 1532 1533	.
+R200	advmod Arg1:T497 Arg2:T475
+R201	punct Arg1:T497 Arg2:T476
+R202	prep_to Arg1:T497 Arg2:T478
+R203	punct Arg1:T497 Arg2:T479
+R204	det Arg1:T484 Arg2:T480
+R205	amod Arg1:T484 Arg2:T483
+R206	nsubj Arg1:T487 Arg2:T484
+R207	nsubjpass Arg1:T497 Arg2:T484
+R208	aux Arg1:T487 Arg2:T486
+R209	rcmod Arg1:T484 Arg2:T487
+R210	det Arg1:T489 Arg2:T488
+R211	dobj Arg1:T487 Arg2:T489
+R212	nn Arg1:T492 Arg2:T491
+R213	prep_of Arg1:T489 Arg2:T492
+R214	aux Arg1:T497 Arg2:T493
+R215	neg Arg1:T497 Arg2:T494
+R216	advmod Arg1:T497 Arg2:T495
+R217	auxpass Arg1:T497 Arg2:T496
+R218	punct Arg1:T497 Arg2:T498
+R219	hyphen Arg1:T483 Arg2:T481
+T567	che 1559 1562	ATP
+T568	che 1598 1606	ON012380
+T569	che 1632 1638	VX-680
+T570	ggp 1608 1621	Aurora kinase
+T571	ggp 1643 1657	p38 MAP kinase
+T522	Token 1534 1536	To
+T523	Token 1537 1544	address
+T524	Token 1545 1549	this
+T525	Token 1550 1557	problem
+T526	Token 1557 1558	,
+T527	Token 1559 1562	ATP
+T528	Token 1563 1578	non-competitive
+T529	Token 1579 1589	inhibitors
+T530	Token 1590 1594	such
+T531	Token 1595 1597	as
+T532	Token 1598 1606	ON012380
+T533	Token 1606 1607	,
+T534	Token 1608 1614	Aurora
+T535	Token 1615 1621	kinase
+T536	Token 1622 1631	inhibitor
+T537	Token 1632 1638	VX-680
+T538	Token 1639 1642	and
+T539	Token 1643 1646	p38
+T540	Token 1647 1650	MAP
+T541	Token 1651 1657	kinase
+T542	Token 1658 1667	inhibitor
+T543	Token 1668 1676	BIRB-796
+T544	Token 1677 1681	have
+T545	Token 1682 1686	been
+T546	Token 1687 1696	developed
+T547	Token 1696 1697	.
+R220	aux Arg1:T523 Arg2:T522
+R221	det Arg1:T525 Arg2:T524
+R222	dobj Arg1:T523 Arg2:T525
+R223	punct Arg1:T523 Arg2:T526
+R224	nn Arg1:T529 Arg2:T527
+R225	amod Arg1:T529 Arg2:T528
+R226	nsubjpass Arg1:T546 Arg2:T529
+R227	prep_such_as Arg1:T529 Arg2:T532
+R228	punct Arg1:T532 Arg2:T533
+R229	nn Arg1:T536 Arg2:T534
+R230	nn Arg1:T536 Arg2:T535
+R231	appos Arg1:T532 Arg2:T536
+R232	num Arg1:T536 Arg2:T537
+R233	nn Arg1:T542 Arg2:T539
+R234	nn Arg1:T542 Arg2:T540
+R235	nn Arg1:T542 Arg2:T541
+R236	appos Arg1:T532 Arg2:T542
+R237	conj_and Arg1:T536 Arg2:T542
+R238	num Arg1:T542 Arg2:T543
+R239	aux Arg1:T546 Arg2:T544
+R240	auxpass Arg1:T546 Arg2:T545
+R241	dep Arg1:T523 Arg2:T546
+R242	punct Arg1:T523 Arg2:T547
+T635	che 1749 1754	Ph(+)
+T636	che 1837 1840	ATP
+T637	dis 1741 1744	CML
+T572	Token 1698 1700	It
+T573	Token 1701 1704	may
+T574	Token 1705 1707	be
+T575	Token 1708 1717	necessary
+T576	Token 1718 1721	for
+T577	Token 1722 1725	the
+T578	Token 1726 1737	improvement
+T579	Token 1738 1740	of
+T580	Token 1741 1744	CML
+T581	Token 1745 1748	and
+T582	Token 1749 1751	Ph
+T583	Token 1751 1752	(
+T584	Token 1752 1753	+
+T585	Token 1753 1754	)
+T586	Token 1754 1757	ALL
+T587	Token 1758 1767	treatment
+T588	Token 1768 1770	to
+T589	Token 1771 1773	be
+T590	Token 1774 1779	taken
+T591	Token 1780 1784	into
+T592	Token 1785 1798	consideration
+T593	Token 1799 1801	of
+T594	Token 1802 1805	the
+T595	Token 1806 1817	combination
+T596	Token 1818 1825	therapy
+T597	Token 1826 1830	with
+T598	Token 1831 1836	novel
+T599	Token 1837 1840	ATP
+T600	Token 1840 1841	-
+T601	Token 1841 1852	competitive
+T602	Token 1853 1863	inhibitors
+T603	Token 1864 1867	and
+T604	Token 1868 1873	these
+T605	Token 1874 1880	agents
+T606	Token 1880 1881	.
+R243	nsubj Arg1:T575 Arg2:T572
+R244	aux Arg1:T575 Arg2:T573
+R245	cop Arg1:T575 Arg2:T574
+R246	det Arg1:T578 Arg2:T577
+R247	prep_for Arg1:T575 Arg2:T578
+R248	prep_of Arg1:T578 Arg2:T580
+R249	prep_of Arg1:T578 Arg2:T582
+R250	conj_and Arg1:T580 Arg2:T582
+R251	punct Arg1:T582 Arg2:T583
+R252	cc Arg1:T582 Arg2:T584
+R253	punct Arg1:T582 Arg2:T585
+R254	det Arg1:T587 Arg2:T586
+R255	nsubjpass Arg1:T590 Arg2:T587
+R256	aux Arg1:T590 Arg2:T588
+R257	auxpass Arg1:T590 Arg2:T589
+R258	xcomp Arg1:T575 Arg2:T590
+R259	prep_into Arg1:T590 Arg2:T592
+R260	det Arg1:T596 Arg2:T594
+R261	nn Arg1:T596 Arg2:T595
+R262	prep_of Arg1:T592 Arg2:T596
+R263	amod Arg1:T602 Arg2:T598
+R264	amod Arg1:T602 Arg2:T601
+R265	prep_with Arg1:T590 Arg2:T602
+R266	det Arg1:T605 Arg2:T604
+R267	prep_with Arg1:T590 Arg2:T605
+R268	conj_and Arg1:T602 Arg2:T605
+R269	punct Arg1:T575 Arg2:T606
+R270	hyphen Arg1:T601 Arg2:T599

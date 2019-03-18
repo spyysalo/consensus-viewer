@@ -1,0 +1,567 @@
+T21	dis 43 65	acute myeloid leukemia
+T1	Token 0 10	Monoclonal
+T2	Token 11 21	antibodies
+T3	Token 22 25	for
+T4	Token 26 29	the
+T5	Token 30 39	treatment
+T6	Token 40 42	of
+T7	Token 43 48	acute
+T8	Token 49 56	myeloid
+T9	Token 57 65	leukemia
+T10	Token 65 66	.
+R1	amod Arg1:T2 Arg2:T1
+R2	det Arg1:T5 Arg2:T4
+R3	prep_for Arg1:T2 Arg2:T5
+R4	amod Arg1:T9 Arg2:T7
+R5	amod Arg1:T9 Arg2:T8
+R6	prep_of Arg1:T5 Arg2:T9
+R7	punct Arg1:T2 Arg2:T10
+T66	dis 92 114	acute myeloid leukemia
+T67	dis 116 119	AML
+T22	Token 67 76	Currently
+T23	Token 76 77	,
+T24	Token 78 86	patients
+T25	Token 87 91	with
+T26	Token 92 97	acute
+T27	Token 98 105	myeloid
+T28	Token 106 114	leukemia
+T29	Token 115 116	(
+T30	Token 116 119	AML
+T31	Token 119 120	)
+T32	Token 121 124	are
+T33	Token 125 132	treated
+T34	Token 133 137	with
+T35	Token 138 147	cytotoxic
+T36	Token 148 160	chemotherapy
+T37	Token 161 164	and
+T38	Token 165 178	hematopoietic
+T39	Token 179 183	stem
+T40	Token 184 188	cell
+T41	Token 189 204	transplantation
+T42	Token 205 206	(
+T43	Token 206 210	HSCT
+T44	Token 210 211	)
+T45	Token 211 212	.
+R8	advmod Arg1:T33 Arg2:T22
+R9	punct Arg1:T33 Arg2:T23
+R10	nsubjpass Arg1:T33 Arg2:T24
+R11	amod Arg1:T28 Arg2:T26
+R12	amod Arg1:T28 Arg2:T27
+R13	prep_with Arg1:T24 Arg2:T28
+R14	punct Arg1:T30 Arg2:T29
+R15	abbrev Arg1:T28 Arg2:T30
+R16	punct Arg1:T30 Arg2:T31
+R17	auxpass Arg1:T33 Arg2:T32
+R18	amod Arg1:T36 Arg2:T35
+R19	prep_with Arg1:T33 Arg2:T36
+R20	amod Arg1:T41 Arg2:T38
+R21	nn Arg1:T41 Arg2:T39
+R22	nn Arg1:T41 Arg2:T40
+R23	prep_with Arg1:T33 Arg2:T41
+R24	conj_and Arg1:T36 Arg2:T41
+R25	punct Arg1:T43 Arg2:T42
+R26	abbrev Arg1:T41 Arg2:T43
+R27	punct Arg1:T43 Arg2:T44
+R28	punct Arg1:T33 Arg2:T45
+T68	Token 213 217	With
+T69	Token 218 222	this
+T70	Token 223 231	approach
+T71	Token 231 232	,
+T72	Token 233 236	the
+T73	Token 237 245	majority
+T74	Token 246 248	of
+T75	Token 249 257	patients
+T76	Token 258 263	still
+T77	Token 264 267	die
+T78	Token 268 270	of
+T79	Token 271 276	their
+T80	Token 277 284	disease
+T81	Token 285 292	because
+T82	Token 293 295	of
+T83	Token 296 300	both
+T84	Token 301 318	treatment-related
+T85	Token 319 328	mortality
+T86	Token 329 332	and
+T87	Token 333 340	relapse
+T88	Token 340 341	.
+R29	det Arg1:T70 Arg2:T69
+R30	prep_with Arg1:T77 Arg2:T70
+R31	punct Arg1:T77 Arg2:T71
+R32	det Arg1:T73 Arg2:T72
+R33	nsubj Arg1:T77 Arg2:T73
+R34	prep_of Arg1:T73 Arg2:T75
+R35	advmod Arg1:T77 Arg2:T76
+R36	poss Arg1:T80 Arg2:T79
+R37	prep_of Arg1:T77 Arg2:T80
+R38	preconj Arg1:T85 Arg2:T83
+R39	amod Arg1:T85 Arg2:T84
+R40	prep_because_of Arg1:T77 Arg2:T85
+R41	prep_because_of Arg1:T77 Arg2:T87
+R42	conj_and Arg1:T85 Arg2:T87
+R43	punct Arg1:T77 Arg2:T88
+T106	Token 342 350	Recently
+T107	Token 350 351	,
+T108	Token 352 362	monoclonal
+T109	Token 363 373	antibodies
+T110	Token 374 377	and
+T111	Token 378 394	immunoconjugates
+T112	Token 395 399	have
+T113	Token 400 404	been
+T114	Token 405 414	developed
+T115	Token 415 420	which
+T116	Token 421 432	potentially
+T117	Token 433 436	may
+T118	Token 437 445	increase
+T119	Token 446 449	the
+T120	Token 450 458	efficacy
+T121	Token 459 461	of
+T122	Token 462 471	treatment
+T123	Token 472 475	and
+T124	Token 476 484	decrease
+T125	Token 485 494	morbidity
+T126	Token 495 498	and
+T127	Token 499 508	mortality
+T128	Token 509 511	by
+T129	Token 512 524	specifically
+T130	Token 525 534	targeting
+T131	Token 535 538	the
+T132	Token 539 548	malignant
+T133	Token 549 553	cell
+T134	Token 553 554	.
+R44	advmod Arg1:T114 Arg2:T106
+R45	punct Arg1:T114 Arg2:T107
+R46	amod Arg1:T109 Arg2:T108
+R47	nsubjpass Arg1:T114 Arg2:T109
+R48	conj_and Arg1:T109 Arg2:T111
+R49	nsubjpass Arg1:T114 Arg2:T111
+R50	aux Arg1:T114 Arg2:T112
+R51	auxpass Arg1:T114 Arg2:T113
+R52	nsubj Arg1:T118 Arg2:T115
+R53	nsubj Arg1:T124 Arg2:T115
+R54	advmod Arg1:T118 Arg2:T116
+R55	aux Arg1:T118 Arg2:T117
+R56	ccomp Arg1:T114 Arg2:T118
+R57	det Arg1:T120 Arg2:T119
+R58	dobj Arg1:T118 Arg2:T120
+R59	prep_of Arg1:T120 Arg2:T122
+R60	ccomp Arg1:T114 Arg2:T124
+R61	conj_and Arg1:T118 Arg2:T124
+R62	dobj Arg1:T124 Arg2:T125
+R63	dobj Arg1:T124 Arg2:T127
+R64	conj_and Arg1:T125 Arg2:T127
+R65	advmod Arg1:T130 Arg2:T129
+R66	prepc_by Arg1:T124 Arg2:T130
+R67	det Arg1:T133 Arg2:T131
+R68	amod Arg1:T133 Arg2:T132
+R69	dobj Arg1:T130 Arg2:T133
+R70	punct Arg1:T114 Arg2:T134
+T165	Token 555 567	Unconjugated
+T166	Token 568 578	monoclonal
+T167	Token 579 589	antibodies
+T168	Token 590 594	have
+T169	Token 595 600	shown
+T170	Token 601 605	only
+T171	Token 606 614	moderate
+T172	Token 615 623	activity
+T173	Token 623 624	.
+R71	amod Arg1:T167 Arg2:T165
+R72	amod Arg1:T167 Arg2:T166
+R73	nsubj Arg1:T169 Arg2:T167
+R74	aux Arg1:T169 Arg2:T168
+R75	advmod Arg1:T171 Arg2:T170
+R76	amod Arg1:T172 Arg2:T171
+R77	dobj Arg1:T169 Arg2:T172
+R78	punct Arg1:T169 Arg2:T173
+T182	Token 625 626	A
+T183	Token 627 633	second
+T184	Token 633 634	,
+T185	Token 635 639	more
+T186	Token 640 649	effective
+T187	Token 649 650	,
+T188	Token 651 659	approach
+T189	Token 660 668	involves
+T190	Token 669 677	antibody
+T191	Token 678 689	conjugation
+T192	Token 690 694	with
+T193	Token 695 706	radioactive
+T194	Token 707 716	particles
+T195	Token 717 719	or
+T196	Token 720 736	chemotherapeutic
+T197	Token 737 743	agents
+T198	Token 743 744	,
+T199	Token 745 749	such
+T200	Token 750 752	as
+T201	Token 752 753	,
+T202	Token 754 766	immunotoxins
+T203	Token 766 767	,
+T204	Token 768 776	targeted
+T205	Token 777 785	delivery
+T206	Token 786 788	of
+T207	Token 789 793	cell
+T208	Token 794 801	killing
+T209	Token 801 802	.
+R79	det Arg1:T188 Arg2:T182
+R80	amod Arg1:T188 Arg2:T183
+R81	punct Arg1:T183 Arg2:T184
+R82	advmod Arg1:T186 Arg2:T185
+R83	dep Arg1:T183 Arg2:T186
+R84	punct Arg1:T188 Arg2:T187
+R85	nsubj Arg1:T189 Arg2:T188
+R86	nn Arg1:T191 Arg2:T190
+R87	dobj Arg1:T189 Arg2:T191
+R88	amod Arg1:T194 Arg2:T193
+R89	prep_with Arg1:T191 Arg2:T194
+R90	amod Arg1:T197 Arg2:T196
+R91	prep_with Arg1:T191 Arg2:T197
+R92	conj_or Arg1:T194 Arg2:T197
+R93	punct Arg1:T197 Arg2:T198
+R94	punct Arg1:T202 Arg2:T201
+R95	prep_such_as Arg1:T197 Arg2:T202
+R96	punct Arg1:T202 Arg2:T203
+R97	amod Arg1:T205 Arg2:T204
+R98	appos Arg1:T202 Arg2:T205
+R99	nn Arg1:T208 Arg2:T207
+R100	prep_of Arg1:T205 Arg2:T208
+R101	punct Arg1:T189 Arg2:T209
+T271	ggp 816 820	CD33
+T272	ggp 822 826	CD45
+T273	ggp 832 836	CD66
+T232	Token 803 806	The
+T233	Token 807 815	antigens
+T234	Token 816 820	CD33
+T235	Token 820 821	,
+T236	Token 822 826	CD45
+T237	Token 826 827	,
+T238	Token 828 831	and
+T239	Token 832 836	CD66
+T240	Token 836 837	,
+T241	Token 838 841	are
+T242	Token 842 847	three
+T243	Token 848 856	antigens
+T244	Token 857 859	to
+T245	Token 860 865	which
+T246	Token 866 876	monoclonal
+T247	Token 877 887	antibodies
+T248	Token 888 892	have
+T249	Token 893 897	been
+T250	Token 898 906	directed
+T251	Token 906 907	.
+R102	det Arg1:T233 Arg2:T232
+R103	nsubj Arg1:T243 Arg2:T233
+R104	dep Arg1:T233 Arg2:T234
+R105	punct Arg1:T234 Arg2:T235
+R106	dep Arg1:T233 Arg2:T236
+R107	conj_and Arg1:T234 Arg2:T236
+R108	punct Arg1:T234 Arg2:T237
+R109	dep Arg1:T233 Arg2:T239
+R110	conj_and Arg1:T234 Arg2:T239
+R111	punct Arg1:T234 Arg2:T240
+R112	cop Arg1:T243 Arg2:T241
+R113	num Arg1:T243 Arg2:T242
+R114	rel Arg1:T250 Arg2:T245
+R115	amod Arg1:T247 Arg2:T246
+R116	nsubjpass Arg1:T250 Arg2:T247
+R117	aux Arg1:T250 Arg2:T248
+R118	auxpass Arg1:T250 Arg2:T249
+R119	rcmod Arg1:T243 Arg2:T250
+R120	punct Arg1:T243 Arg2:T251
+T329	che 949 959	ozogamicin
+T330	che 1071 1084	calicheamicin
+T331	ggp 1005 1023	anti-CD33 antibody
+T274	Token 908 912	Most
+T275	Token 913 923	experience
+T276	Token 924 927	has
+T277	Token 928 932	been
+T278	Token 933 937	with
+T279	Token 938 948	gemtuzumab
+T280	Token 949 959	ozogamicin
+T281	Token 960 961	(
+T282	Token 961 969	Mylotarg
+T283	Token 969 970	)
+T284	Token 971 976	which
+T285	Token 977 979	is
+T286	Token 980 982	an
+T287	Token 983 998	immunoconjugate
+T288	Token 999 1001	of
+T289	Token 1002 1004	an
+T290	Token 1005 1014	anti-CD33
+T291	Token 1015 1023	antibody
+T292	Token 1024 1034	chemically
+T293	Token 1035 1041	linked
+T294	Token 1042 1044	to
+T295	Token 1045 1046	a
+T296	Token 1047 1053	potent
+T297	Token 1054 1063	cytotoxic
+T298	Token 1064 1069	agent
+T299	Token 1069 1070	,
+T300	Token 1071 1084	calicheamicin
+T301	Token 1084 1085	.
+R121	nsubj Arg1:T277 Arg2:T274
+R122	dep Arg1:T274 Arg2:T275
+R123	aux Arg1:T277 Arg2:T276
+R124	nn Arg1:T280 Arg2:T279
+R125	prep_with Arg1:T277 Arg2:T280
+R126	nsubj Arg1:T287 Arg2:T280
+R127	punct Arg1:T282 Arg2:T281
+R128	appos Arg1:T280 Arg2:T282
+R129	punct Arg1:T282 Arg2:T283
+R130	cop Arg1:T287 Arg2:T285
+R131	det Arg1:T287 Arg2:T286
+R132	rcmod Arg1:T280 Arg2:T287
+R133	det Arg1:T291 Arg2:T289
+R134	amod Arg1:T291 Arg2:T290
+R135	prep_of Arg1:T287 Arg2:T291
+R136	advmod Arg1:T293 Arg2:T292
+R137	partmod Arg1:T291 Arg2:T293
+R138	det Arg1:T298 Arg2:T295
+R139	amod Arg1:T298 Arg2:T296
+R140	amod Arg1:T298 Arg2:T297
+R141	prep_to Arg1:T293 Arg2:T298
+R142	punct Arg1:T298 Arg2:T299
+R143	appos Arg1:T298 Arg2:T300
+R144	punct Arg1:T277 Arg2:T301
+T385	che 1097 1107	ozogamicin
+T386	dis 1159 1187	acute promyelocytic leukemia
+T387	ggp 1236 1248	CD33 antigen
+T332	Token 1086 1096	Gemtuzumab
+T333	Token 1097 1107	ozogamicin
+T334	Token 1108 1115	appears
+T335	Token 1116 1118	to
+T336	Token 1119 1121	be
+T337	Token 1122 1134	particularly
+T338	Token 1135 1141	active
+T339	Token 1142 1144	in
+T340	Token 1145 1153	patients
+T341	Token 1154 1158	with
+T342	Token 1159 1164	acute
+T343	Token 1165 1178	promyelocytic
+T344	Token 1179 1187	leukemia
+T345	Token 1187 1188	,
+T346	Token 1189 1197	possibly
+T347	Token 1198 1205	related
+T348	Token 1206 1208	to
+T349	Token 1209 1212	the
+T350	Token 1213 1217	high
+T351	Token 1218 1228	expression
+T352	Token 1229 1231	of
+T353	Token 1232 1235	the
+T354	Token 1236 1240	CD33
+T355	Token 1241 1248	antigen
+T356	Token 1249 1251	on
+T357	Token 1252 1255	the
+T358	Token 1256 1260	cell
+T359	Token 1261 1268	surface
+T360	Token 1268 1269	.
+R145	nn Arg1:T333 Arg2:T332
+R146	nsubj Arg1:T334 Arg2:T333
+R147	xsubj Arg1:T338 Arg2:T333
+R148	aux Arg1:T338 Arg2:T335
+R149	cop Arg1:T338 Arg2:T336
+R150	advmod Arg1:T338 Arg2:T337
+R151	xcomp Arg1:T334 Arg2:T338
+R152	prep_in Arg1:T338 Arg2:T340
+R153	amod Arg1:T344 Arg2:T342
+R154	amod Arg1:T344 Arg2:T343
+R155	prep_with Arg1:T340 Arg2:T344
+R156	punct Arg1:T344 Arg2:T345
+R157	advmod Arg1:T347 Arg2:T346
+R158	amod Arg1:T344 Arg2:T347
+R159	det Arg1:T351 Arg2:T349
+R160	amod Arg1:T351 Arg2:T350
+R161	prep_to Arg1:T347 Arg2:T351
+R162	det Arg1:T355 Arg2:T353
+R163	nn Arg1:T355 Arg2:T354
+R164	prep_of Arg1:T351 Arg2:T355
+R165	det Arg1:T359 Arg2:T357
+R166	nn Arg1:T359 Arg2:T358
+R167	prep_on Arg1:T351 Arg2:T359
+R168	punct Arg1:T334 Arg2:T360
+T438	che 1290 1300	ozogamicin
+T439	ggp 1279 1300	gemtuzumab ozogamicin
+T388	Token 1270 1278	Although
+T389	Token 1279 1289	gemtuzumab
+T390	Token 1290 1300	ozogamicin
+T391	Token 1301 1304	has
+T392	Token 1305 1313	activity
+T393	Token 1314 1316	as
+T394	Token 1317 1318	a
+T395	Token 1319 1325	single
+T396	Token 1326 1331	agent
+T397	Token 1331 1332	,
+T398	Token 1333 1336	the
+T399	Token 1337 1341	most
+T400	Token 1342 1351	promising
+T401	Token 1352 1358	result
+T402	Token 1359 1362	may
+T403	Token 1363 1365	be
+T404	Token 1366 1370	seen
+T405	Token 1371 1375	when
+T406	Token 1376 1380	this
+T407	Token 1381 1386	agent
+T408	Token 1387 1389	is
+T409	Token 1390 1398	combined
+T410	Token 1399 1403	with
+T411	Token 1404 1416	conventional
+T412	Token 1417 1426	cytotoxic
+T413	Token 1427 1439	chemotherapy
+T414	Token 1439 1440	.
+R169	mark Arg1:T391 Arg2:T388
+R170	nn Arg1:T390 Arg2:T389
+R171	nsubj Arg1:T391 Arg2:T390
+R172	advcl Arg1:T404 Arg2:T391
+R173	dobj Arg1:T391 Arg2:T392
+R174	det Arg1:T396 Arg2:T394
+R175	amod Arg1:T396 Arg2:T395
+R176	prep_as Arg1:T391 Arg2:T396
+R177	punct Arg1:T404 Arg2:T397
+R178	det Arg1:T401 Arg2:T398
+R179	advmod Arg1:T400 Arg2:T399
+R180	amod Arg1:T401 Arg2:T400
+R181	nsubjpass Arg1:T404 Arg2:T401
+R182	aux Arg1:T404 Arg2:T402
+R183	auxpass Arg1:T404 Arg2:T403
+R184	advmod Arg1:T409 Arg2:T405
+R185	det Arg1:T407 Arg2:T406
+R186	nsubjpass Arg1:T409 Arg2:T407
+R187	auxpass Arg1:T409 Arg2:T408
+R188	advcl Arg1:T404 Arg2:T409
+R189	amod Arg1:T413 Arg2:T411
+R190	amod Arg1:T413 Arg2:T412
+R191	prep_with Arg1:T409 Arg2:T413
+R192	punct Arg1:T404 Arg2:T414
+T440	Token 1441 1452	Preliminary
+T441	Token 1453 1460	studies
+T442	Token 1461 1465	have
+T443	Token 1466 1475	suggested
+T444	Token 1476 1477	a
+T445	Token 1478 1482	high
+T446	Token 1483 1491	complete
+T447	Token 1492 1501	remission
+T448	Token 1502 1506	rate
+T449	Token 1507 1510	and
+T450	Token 1511 1521	randomized
+T451	Token 1522 1530	clinical
+T452	Token 1531 1537	trials
+T453	Token 1538 1541	are
+T454	Token 1542 1550	underway
+T455	Token 1550 1551	.
+R193	amod Arg1:T441 Arg2:T440
+R194	nsubj Arg1:T443 Arg2:T441
+R195	aux Arg1:T443 Arg2:T442
+R196	det Arg1:T448 Arg2:T444
+R197	amod Arg1:T448 Arg2:T445
+R198	amod Arg1:T448 Arg2:T446
+R199	nn Arg1:T448 Arg2:T447
+R200	dobj Arg1:T443 Arg2:T448
+R201	amod Arg1:T452 Arg2:T450
+R202	amod Arg1:T452 Arg2:T451
+R203	nsubj Arg1:T454 Arg2:T452
+R204	cop Arg1:T454 Arg2:T453
+R205	conj_and Arg1:T443 Arg2:T454
+R206	punct Arg1:T443 Arg2:T455
+T521	dis 1608 1629	venoocclusive disease
+T522	dis 1633 1664	sinusoidal obstructive syndrome
+T468	Token 1552 1553	A
+T469	Token 1554 1560	unique
+T470	Token 1561 1570	potential
+T471	Token 1571 1579	toxicity
+T472	Token 1580 1583	has
+T473	Token 1584 1588	been
+T474	Token 1589 1599	identified
+T475	Token 1599 1600	,
+T476	Token 1601 1607	namely
+T477	Token 1608 1621	venoocclusive
+T478	Token 1622 1629	disease
+T479	Token 1630 1632	or
+T480	Token 1633 1643	sinusoidal
+T481	Token 1644 1655	obstructive
+T482	Token 1656 1664	syndrome
+T483	Token 1665 1670	which
+T484	Token 1671 1674	may
+T485	Token 1675 1677	be
+T486	Token 1678 1689	problematic
+T487	Token 1690 1695	among
+T488	Token 1696 1704	patients
+T489	Token 1705 1708	who
+T490	Token 1709 1721	subsequently
+T491	Token 1722 1729	undergo
+T492	Token 1730 1734	HSCT
+T493	Token 1734 1735	.
+R207	det Arg1:T471 Arg2:T468
+R208	amod Arg1:T471 Arg2:T469
+R209	amod Arg1:T471 Arg2:T470
+R210	nsubjpass Arg1:T474 Arg2:T471
+R211	aux Arg1:T474 Arg2:T472
+R212	auxpass Arg1:T474 Arg2:T473
+R213	punct Arg1:T474 Arg2:T475
+R214	prep Arg1:T474 Arg2:T476
+R215	amod Arg1:T478 Arg2:T477
+R216	pobj Arg1:T476 Arg2:T478
+R217	nsubj Arg1:T486 Arg2:T478
+R218	amod Arg1:T482 Arg2:T480
+R219	amod Arg1:T482 Arg2:T481
+R220	pobj Arg1:T476 Arg2:T482
+R221	conj_or Arg1:T478 Arg2:T482
+R222	nsubj Arg1:T486 Arg2:T482
+R223	aux Arg1:T486 Arg2:T484
+R224	cop Arg1:T486 Arg2:T485
+R225	rcmod Arg1:T478 Arg2:T486
+R226	prep_among Arg1:T486 Arg2:T488
+R227	nsubj Arg1:T491 Arg2:T488
+R228	advmod Arg1:T491 Arg2:T490
+R229	rcmod Arg1:T488 Arg2:T491
+R230	dobj Arg1:T491 Arg2:T492
+R231	punct Arg1:T474 Arg2:T493
+T523	Token 1736 1738	An
+T524	Token 1739 1749	additional
+T525	Token 1750 1758	strategy
+T526	Token 1759 1767	includes
+T527	Token 1768 1780	radiolabeled
+T528	Token 1781 1791	monoclonal
+T529	Token 1792 1802	antibodies
+T530	Token 1803 1805	to
+T531	Token 1806 1815	intensify
+T532	Token 1816 1819	the
+T533	Token 1820 1832	conditioning
+T534	Token 1833 1840	regimen
+T535	Token 1841 1846	prior
+T536	Token 1847 1849	to
+T537	Token 1850 1854	HSCT
+T538	Token 1854 1855	.
+R232	det Arg1:T525 Arg2:T523
+R233	amod Arg1:T525 Arg2:T524
+R234	nsubj Arg1:T526 Arg2:T525
+R235	amod Arg1:T529 Arg2:T527
+R236	amod Arg1:T529 Arg2:T528
+R237	dobj Arg1:T526 Arg2:T529
+R238	aux Arg1:T531 Arg2:T530
+R239	xcomp Arg1:T526 Arg2:T531
+R240	det Arg1:T534 Arg2:T532
+R241	amod Arg1:T534 Arg2:T533
+R242	dobj Arg1:T531 Arg2:T534
+R243	prep_prior_to Arg1:T534 Arg2:T537
+R244	punct Arg1:T526 Arg2:T538
+T574	org 1925 1929	CD45
+T575	ggp 1920 1940	anti-CD45 antibodies
+T553	Token 1856 1859	The
+T554	Token 1860 1864	most
+T555	Token 1865 1874	promising
+T556	Token 1875 1882	results
+T557	Token 1883 1887	have
+T558	Token 1888 1892	been
+T559	Token 1893 1901	obtained
+T560	Token 1902 1906	with
+T561	Token 1907 1919	radiolabeled
+T562	Token 1920 1929	anti-CD45
+T563	Token 1930 1940	antibodies
+T564	Token 1940 1941	.
+R245	det Arg1:T556 Arg2:T553
+R246	amod Arg1:T556 Arg2:T554
+R247	amod Arg1:T556 Arg2:T555
+R248	nsubjpass Arg1:T559 Arg2:T556
+R249	aux Arg1:T559 Arg2:T557
+R250	auxpass Arg1:T559 Arg2:T558
+R251	amod Arg1:T563 Arg2:T561
+R252	amod Arg1:T563 Arg2:T562
+R253	prep_with Arg1:T559 Arg2:T563
+R254	punct Arg1:T559 Arg2:T564

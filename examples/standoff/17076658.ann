@@ -1,0 +1,652 @@
+T33	org 29 34	human
+T34	che 0 6	Uracil
+T35	che 7 18	nucleotides
+T36	ggp 120 123	MEK
+T37	ggp 124 127	ERK
+T1	Token 0 6	Uracil
+T2	Token 7 18	nucleotides
+T3	Token 19 28	stimulate
+T4	Token 29 34	human
+T5	Token 35 41	neural
+T6	Token 42 51	precursor
+T7	Token 52 56	cell
+T8	Token 57 70	proliferation
+T9	Token 71 74	and
+T10	Token 75 87	dopaminergic
+T11	Token 88 103	differentiation
+T12	Token 103 104	:
+T13	Token 105 116	involvement
+T14	Token 117 119	of
+T15	Token 120 123	MEK
+T16	Token 123 124	/
+T17	Token 124 127	ERK
+T18	Token 128 138	signalling
+T19	Token 138 139	.
+R1	nn Arg1:T2 Arg2:T1
+R2	nsubj Arg1:T3 Arg2:T2
+R3	amod Arg1:T8 Arg2:T4
+R4	amod Arg1:T8 Arg2:T5
+R5	nn Arg1:T8 Arg2:T6
+R6	nn Arg1:T8 Arg2:T7
+R7	dobj Arg1:T3 Arg2:T8
+R8	amod Arg1:T11 Arg2:T10
+R9	dobj Arg1:T3 Arg2:T11
+R10	conj_and Arg1:T8 Arg2:T11
+R11	punct Arg1:T3 Arg2:T12
+R12	dobj Arg1:T3 Arg2:T13
+R13	nn Arg1:T18 Arg2:T15
+R14	prep_of Arg1:T13 Arg2:T18
+R15	punct Arg1:T3 Arg2:T19
+R16	slash Arg1:T15 Arg2:T17
+T80	org 200 205	human
+T81	org 249 254	human
+T38	Token 140 149	Isolation
+T39	Token 150 153	and
+T40	Token 154 165	propagation
+T41	Token 166 168	of
+T42	Token 169 175	neural
+T43	Token 176 180	stem
+T44	Token 181 186	cells
+T45	Token 187 194	derived
+T46	Token 195 199	from
+T47	Token 200 205	human
+T48	Token 206 211	brain
+T49	Token 212 218	tissue
+T50	Token 219 227	uniquely
+T51	Token 228 235	enables
+T52	Token 236 239	the
+T53	Token 240 245	study
+T54	Token 246 248	of
+T55	Token 249 254	human
+T56	Token 255 267	neurogenesis
+T57	Token 268 270	in
+T58	Token 271 276	vitro
+T59	Token 276 277	.
+R17	nsubj Arg1:T51 Arg2:T38
+R18	conj_and Arg1:T38 Arg2:T40
+R19	nsubj Arg1:T51 Arg2:T40
+R20	amod Arg1:T44 Arg2:T42
+R21	nn Arg1:T44 Arg2:T43
+R22	prep_of Arg1:T38 Arg2:T44
+R23	partmod Arg1:T44 Arg2:T45
+R24	amod Arg1:T49 Arg2:T47
+R25	nn Arg1:T49 Arg2:T48
+R26	prep_from Arg1:T45 Arg2:T49
+R27	advmod Arg1:T51 Arg2:T50
+R28	det Arg1:T53 Arg2:T52
+R29	dobj Arg1:T51 Arg2:T53
+R30	amod Arg1:T56 Arg2:T55
+R31	prep_of Arg1:T53 Arg2:T56
+R32	nn Arg1:T58 Arg2:T57
+R33	advmod Arg1:T51 Arg2:T58
+R34	punct Arg1:T51 Arg2:T59
+T112	org 308 313	human
+T82	Token 278 280	In
+T83	Token 281 289	addition
+T84	Token 289 290	,
+T85	Token 291 293	ex
+T86	Token 294 307	vivo-expanded
+T87	Token 308 313	human
+T88	Token 314 320	neural
+T89	Token 321 335	stem/precursor
+T90	Token 336 341	cells
+T91	Token 342 343	(
+T92	Token 343 347	NPCs
+T93	Token 347 348	)
+T94	Token 349 352	may
+T95	Token 353 358	offer
+T96	Token 359 364	novel
+T97	Token 365 376	therapeutic
+T98	Token 377 387	strategies
+T99	Token 387 388	.
+R35	prep_in Arg1:T95 Arg2:T83
+R36	punct Arg1:T95 Arg2:T84
+R37	nn Arg1:T90 Arg2:T85
+R38	amod Arg1:T90 Arg2:T86
+R39	amod Arg1:T90 Arg2:T87
+R40	amod Arg1:T90 Arg2:T88
+R41	nn Arg1:T90 Arg2:T89
+R42	nsubj Arg1:T95 Arg2:T90
+R43	punct Arg1:T92 Arg2:T91
+R44	appos Arg1:T90 Arg2:T92
+R45	punct Arg1:T92 Arg2:T93
+R46	aux Arg1:T95 Arg2:T94
+R47	amod Arg1:T98 Arg2:T96
+R48	amod Arg1:T98 Arg2:T97
+R49	dobj Arg1:T95 Arg2:T98
+R50	punct Arg1:T95 Arg2:T99
+T154	org 490 495	human
+T155	che 434 445	nucleotides
+T113	Token 389 391	We
+T114	Token 392 404	investigated
+T115	Token 405 408	the
+T116	Token 409 416	effects
+T117	Token 417 419	of
+T118	Token 420 433	extracellular
+T119	Token 434 445	nucleotides
+T120	Token 446 448	on
+T121	Token 449 452	the
+T122	Token 453 466	proliferation
+T123	Token 467 470	and
+T124	Token 471 486	differentiation
+T125	Token 487 489	of
+T126	Token 490 495	human
+T127	Token 496 509	mesencephalic
+T128	Token 510 516	neural
+T129	Token 517 531	stem/precursor
+T130	Token 532 537	cells
+T131	Token 538 539	(
+T132	Token 539 545	hmNPCs
+T133	Token 545 546	)
+T134	Token 546 547	.
+R51	nsubj Arg1:T114 Arg2:T113
+R52	det Arg1:T116 Arg2:T115
+R53	dobj Arg1:T114 Arg2:T116
+R54	amod Arg1:T119 Arg2:T118
+R55	prep_of Arg1:T116 Arg2:T119
+R56	dep Arg1:T122 Arg2:T121
+R57	prep_on Arg1:T116 Arg2:T122
+R58	prep_on Arg1:T116 Arg2:T124
+R59	conj_and Arg1:T122 Arg2:T124
+R60	amod Arg1:T130 Arg2:T126
+R61	amod Arg1:T130 Arg2:T127
+R62	amod Arg1:T130 Arg2:T128
+R63	nn Arg1:T130 Arg2:T129
+R64	prep_of Arg1:T122 Arg2:T130
+R65	punct Arg1:T132 Arg2:T131
+R66	appos Arg1:T130 Arg2:T132
+R67	punct Arg1:T132 Arg2:T133
+R68	punct Arg1:T114 Arg2:T134
+T229	che 636 639	UTP
+T230	ggp 580 603	epidermal growth factor
+T231	ggp 608 634	fibroblast growth factor 2
+T232	ggp 744 778	proliferating cell nuclear antigen
+T156	Token 548 552	When
+T157	Token 553 561	combined
+T158	Token 562 566	with
+T159	Token 567 570	the
+T160	Token 571 579	mitogens
+T161	Token 580 589	epidermal
+T162	Token 590 596	growth
+T163	Token 597 603	factor
+T164	Token 604 607	and
+T165	Token 608 618	fibroblast
+T166	Token 619 625	growth
+T167	Token 626 632	factor
+T168	Token 633 634	2
+T169	Token 634 635	,
+T170	Token 636 639	UTP
+T171	Token 640 641	(
+T172	Token 641 642	1
+T173	Token 643 649	microm
+T174	Token 649 650	)
+T175	Token 651 658	boosted
+T176	Token 659 672	proliferation
+T177	Token 673 675	of
+T178	Token 676 682	hmNPCs
+T179	Token 683 685	as
+T180	Token 686 691	shown
+T181	Token 692 694	by
+T182	Token 695 704	increased
+T183	Token 705 715	expression
+T184	Token 716 718	of
+T185	Token 719 722	the
+T186	Token 723 736	proliferation
+T187	Token 737 743	marker
+T188	Token 744 757	proliferating
+T189	Token 758 762	cell
+T190	Token 763 770	nuclear
+T191	Token 771 778	antigen
+T192	Token 779 780	(
+T193	Token 780 783	330
+T194	Token 783 784	%
+T195	Token 784 785	)
+T196	Token 785 786	.
+R69	advmod Arg1:T157 Arg2:T156
+R70	advcl Arg1:T175 Arg2:T157
+R71	det Arg1:T160 Arg2:T159
+R72	prep_with Arg1:T157 Arg2:T160
+R73	amod Arg1:T163 Arg2:T161
+R74	nn Arg1:T163 Arg2:T162
+R75	dep Arg1:T160 Arg2:T163
+R76	nn Arg1:T167 Arg2:T165
+R77	nn Arg1:T167 Arg2:T166
+R78	dep Arg1:T160 Arg2:T167
+R79	conj_and Arg1:T163 Arg2:T167
+R80	num Arg1:T167 Arg2:T168
+R81	punct Arg1:T175 Arg2:T169
+R82	nsubj Arg1:T175 Arg2:T170
+R83	punct Arg1:T173 Arg2:T171
+R84	num Arg1:T173 Arg2:T172
+R85	appos Arg1:T170 Arg2:T173
+R86	punct Arg1:T173 Arg2:T174
+R87	dobj Arg1:T175 Arg2:T176
+R88	prep_of Arg1:T176 Arg2:T178
+R89	mark Arg1:T180 Arg2:T179
+R90	advcl Arg1:T175 Arg2:T180
+R91	amod Arg1:T183 Arg2:T182
+R92	prep_by Arg1:T180 Arg2:T183
+R93	det Arg1:T191 Arg2:T185
+R94	nn Arg1:T191 Arg2:T186
+R95	nn Arg1:T191 Arg2:T187
+R96	amod Arg1:T191 Arg2:T188
+R97	nn Arg1:T191 Arg2:T189
+R98	amod Arg1:T191 Arg2:T190
+R99	prep_of Arg1:T183 Arg2:T191
+R100	punct Arg1:T194 Arg2:T192
+R101	num Arg1:T194 Arg2:T193
+R102	appos Arg1:T191 Arg2:T194
+R103	punct Arg1:T194 Arg2:T195
+R104	punct Arg1:T175 Arg2:T196
+T270	che 787 790	UTP
+T271	che 868 922	pyridoxal phosphate-6-azophenyl-2',4'-disulphonic acid
+T272	che 924 929	PPADS
+T273	ggp 847 859	P2Y receptor
+T233	Token 787 790	UTP
+T234	Token 790 791	-
+T235	Token 791 798	induced
+T236	Token 799 812	proliferation
+T237	Token 813 816	was
+T238	Token 817 826	abrogated
+T239	Token 827 829	by
+T240	Token 830 833	the
+T241	Token 834 846	preferential
+T242	Token 847 850	P2Y
+T243	Token 851 859	receptor
+T244	Token 860 867	blocker
+T245	Token 868 877	pyridoxal
+T246	Token 878 901	phosphate-6-azophenyl-2
+T247	Token 901 902	'
+T248	Token 902 903	,
+T249	Token 903 917	4'-disulphonic
+T250	Token 918 922	acid
+T251	Token 923 924	(
+T252	Token 924 929	PPADS
+T253	Token 929 930	)
+T254	Token 930 931	.
+R105	amod Arg1:T236 Arg2:T235
+R106	nsubjpass Arg1:T238 Arg2:T236
+R107	auxpass Arg1:T238 Arg2:T237
+R108	det Arg1:T244 Arg2:T240
+R109	amod Arg1:T244 Arg2:T241
+R110	nn Arg1:T244 Arg2:T242
+R111	nn Arg1:T244 Arg2:T243
+R112	agent Arg1:T238 Arg2:T244
+R113	amod Arg1:T246 Arg2:T245
+R114	dep Arg1:T244 Arg2:T246
+R115	punct Arg1:T246 Arg2:T247
+R116	punct Arg1:T244 Arg2:T248
+R117	amod Arg1:T250 Arg2:T249
+R118	appos Arg1:T244 Arg2:T250
+R119	punct Arg1:T252 Arg2:T251
+R120	abbrev Arg1:T250 Arg2:T252
+R121	punct Arg1:T252 Arg2:T253
+R122	punct Arg1:T238 Arg2:T254
+R123	hyphen Arg1:T235 Arg2:T233
+T287	che 932 935	UTP
+T274	Token 932 935	UTP
+T275	Token 936 940	also
+T276	Token 941 951	stimulated
+T277	Token 952 964	dopaminergic
+T278	Token 965 980	differentiation
+T279	Token 980 981	.
+R124	nsubj Arg1:T276 Arg2:T274
+R125	advmod Arg1:T276 Arg2:T275
+R126	amod Arg1:T278 Arg2:T277
+R127	dobj Arg1:T276 Arg2:T278
+R128	punct Arg1:T276 Arg2:T279
+T341	che 997 1000	UTP
+T342	che 1038 1046	tyrosine
+T343	ggp 1038 1058	tyrosine hydroxylase
+T344	ggp 1060 1062	TH
+T345	ggp 1083 1093	TH protein
+T288	Token 982 991	Treatment
+T289	Token 992 996	with
+T290	Token 997 1000	UTP
+T291	Token 1001 1002	(
+T292	Token 1002 1005	100
+T293	Token 1006 1012	microm
+T294	Token 1012 1013	)
+T295	Token 1014 1023	increased
+T296	Token 1024 1027	the
+T297	Token 1028 1034	number
+T298	Token 1035 1037	of
+T299	Token 1038 1046	tyrosine
+T300	Token 1047 1058	hydroxylase
+T301	Token 1059 1060	(
+T302	Token 1060 1062	TH
+T303	Token 1062 1063	)
+T304	Token 1063 1072	-positive
+T305	Token 1073 1078	cells
+T306	Token 1079 1082	and
+T307	Token 1083 1085	TH
+T308	Token 1086 1093	protein
+T309	Token 1094 1096	by
+T310	Token 1097 1100	267
+T311	Token 1101 1104	and
+T312	Token 1105 1108	319
+T313	Token 1108 1109	%
+T314	Token 1110 1122	respectively
+T315	Token 1122 1123	.
+R129	nsubj Arg1:T295 Arg2:T288
+R130	prep_with Arg1:T288 Arg2:T290
+R131	punct Arg1:T293 Arg2:T291
+R132	num Arg1:T293 Arg2:T292
+R133	appos Arg1:T290 Arg2:T293
+R134	punct Arg1:T293 Arg2:T294
+R135	det Arg1:T297 Arg2:T296
+R136	dobj Arg1:T295 Arg2:T297
+R137	nn Arg1:T300 Arg2:T299
+R138	nn Arg1:T305 Arg2:T300
+R139	punct Arg1:T302 Arg2:T301
+R140	abbrev Arg1:T300 Arg2:T302
+R141	punct Arg1:T302 Arg2:T303
+R142	amod Arg1:T305 Arg2:T304
+R143	prep_of Arg1:T297 Arg2:T305
+R144	nn Arg1:T308 Arg2:T307
+R145	prep_of Arg1:T297 Arg2:T308
+R146	conj_and Arg1:T305 Arg2:T308
+R147	num Arg1:T313 Arg2:T310
+R148	conj_and Arg1:T310 Arg2:T312
+R149	num Arg1:T313 Arg2:T312
+R150	prep_by Arg1:T295 Arg2:T313
+R151	advmod Arg1:T295 Arg2:T314
+R152	punct Arg1:T295 Arg2:T315
+T393	che 1124 1127	UTP
+T394	che 1221 1228	suramin
+T395	che 1245 1250	PPADS
+T396	ggp 1197 1208	P2 receptor
+T346	Token 1124 1127	UTP
+T347	Token 1127 1128	-
+T348	Token 1128 1138	stimulated
+T349	Token 1139 1151	dopaminergic
+T350	Token 1152 1167	differentiation
+T351	Token 1168 1170	of
+T352	Token 1171 1177	hmNPCs
+T353	Token 1178 1181	was
+T354	Token 1182 1189	blocked
+T355	Token 1190 1192	by
+T356	Token 1193 1196	the
+T357	Token 1197 1199	P2
+T358	Token 1200 1208	receptor
+T359	Token 1209 1220	antagonists
+T360	Token 1221 1228	suramin
+T361	Token 1229 1230	(
+T362	Token 1230 1232	10
+T363	Token 1233 1239	microm
+T364	Token 1239 1240	)
+T365	Token 1241 1244	and
+T366	Token 1245 1250	PPADS
+T367	Token 1251 1252	(
+T368	Token 1252 1255	100
+T369	Token 1256 1262	microm
+T370	Token 1262 1263	)
+T371	Token 1263 1264	.
+R153	amod Arg1:T350 Arg2:T348
+R154	amod Arg1:T350 Arg2:T349
+R155	nsubjpass Arg1:T354 Arg2:T350
+R156	prep_of Arg1:T350 Arg2:T352
+R157	auxpass Arg1:T354 Arg2:T353
+R158	det Arg1:T359 Arg2:T356
+R159	nn Arg1:T359 Arg2:T357
+R160	nn Arg1:T359 Arg2:T358
+R161	agent Arg1:T354 Arg2:T359
+R162	dep Arg1:T359 Arg2:T360
+R163	punct Arg1:T363 Arg2:T361
+R164	num Arg1:T363 Arg2:T362
+R165	appos Arg1:T360 Arg2:T363
+R166	punct Arg1:T363 Arg2:T364
+R167	dep Arg1:T359 Arg2:T366
+R168	conj_and Arg1:T360 Arg2:T366
+R169	punct Arg1:T369 Arg2:T367
+R170	num Arg1:T369 Arg2:T368
+R171	appos Arg1:T366 Arg2:T369
+R172	punct Arg1:T369 Arg2:T370
+R173	punct Arg1:T354 Arg2:T371
+R174	hyphen Arg1:T348 Arg2:T346
+T426	che 1278 1281	UDP
+T427	ggp 1278 1291	UDP (1 microm
+T428	ggp 1302 1312	TH protein
+T397	Token 1265 1267	In
+T398	Token 1268 1276	addition
+T399	Token 1276 1277	,
+T400	Token 1278 1281	UDP
+T401	Token 1282 1283	(
+T402	Token 1283 1284	1
+T403	Token 1285 1291	microm
+T404	Token 1291 1292	)
+T405	Token 1293 1301	enhanced
+T406	Token 1302 1304	TH
+T407	Token 1305 1312	protein
+T408	Token 1313 1323	expression
+T409	Token 1324 1326	by
+T410	Token 1327 1330	194
+T411	Token 1330 1331	%
+T412	Token 1331 1332	.
+R175	prep_in Arg1:T405 Arg2:T398
+R176	punct Arg1:T405 Arg2:T399
+R177	nsubj Arg1:T405 Arg2:T400
+R178	punct Arg1:T403 Arg2:T401
+R179	num Arg1:T403 Arg2:T402
+R180	appos Arg1:T400 Arg2:T403
+R181	punct Arg1:T403 Arg2:T404
+R182	nn Arg1:T408 Arg2:T406
+R183	nn Arg1:T408 Arg2:T407
+R184	dobj Arg1:T405 Arg2:T408
+R185	num Arg1:T411 Arg2:T410
+R186	prep_by Arg1:T405 Arg2:T411
+R187	punct Arg1:T405 Arg2:T412
+T457	che 1372 1375	UTP
+T458	ggp 1391 1428	extracellular signal-regulated kinase
+T459	ggp 1430 1433	ERK
+T429	Token 1333 1339	During
+T430	Token 1340 1355	differentiation
+T431	Token 1355 1356	,
+T432	Token 1357 1366	treatment
+T433	Token 1367 1371	with
+T434	Token 1372 1375	UTP
+T435	Token 1376 1386	stimulated
+T436	Token 1387 1390	the
+T437	Token 1391 1404	extracellular
+T438	Token 1405 1421	signal-regulated
+T439	Token 1422 1428	kinase
+T440	Token 1429 1430	(
+T441	Token 1430 1433	ERK
+T442	Token 1433 1434	)
+T443	Token 1435 1442	pathway
+T444	Token 1442 1443	.
+R188	prep_during Arg1:T435 Arg2:T430
+R189	punct Arg1:T435 Arg2:T431
+R190	nsubj Arg1:T435 Arg2:T432
+R191	prep_with Arg1:T432 Arg2:T434
+R192	det Arg1:T441 Arg2:T436
+R193	amod Arg1:T441 Arg2:T437
+R194	amod Arg1:T441 Arg2:T438
+R195	nn Arg1:T441 Arg2:T439
+R196	punct Arg1:T441 Arg2:T440
+R197	nn Arg1:T443 Arg2:T441
+R198	punct Arg1:T441 Arg2:T442
+R199	dobj Arg1:T435 Arg2:T443
+R200	punct Arg1:T435 Arg2:T444
+T499	che 1523 1528	U0126
+T500	che 1578 1585	suramin
+T501	ggp 1449 1455	ERK1/2
+T502	ggp 1542 1552	ERK kinase
+T460	Token 1444 1448	Both
+T461	Token 1449 1455	ERK1/2
+T462	Token 1456 1471	phosphorylation
+T463	Token 1472 1475	and
+T464	Token 1476 1488	dopaminergic
+T465	Token 1489 1504	differentiation
+T466	Token 1505 1509	were
+T467	Token 1510 1519	inhibited
+T468	Token 1520 1522	by
+T469	Token 1523 1528	U0126
+T470	Token 1528 1529	,
+T471	Token 1530 1531	a
+T472	Token 1532 1541	selective
+T473	Token 1542 1545	ERK
+T474	Token 1546 1552	kinase
+T475	Token 1553 1562	inhibitor
+T476	Token 1562 1563	,
+T477	Token 1564 1566	as
+T478	Token 1567 1571	well
+T479	Token 1572 1574	as
+T480	Token 1575 1577	by
+T481	Token 1578 1585	suramin
+T482	Token 1585 1586	.
+R201	preconj Arg1:T462 Arg2:T460
+R202	nn Arg1:T462 Arg2:T461
+R203	nsubjpass Arg1:T467 Arg2:T462
+R204	amod Arg1:T465 Arg2:T464
+R205	conj_and Arg1:T462 Arg2:T465
+R206	nsubjpass Arg1:T467 Arg2:T465
+R207	auxpass Arg1:T467 Arg2:T466
+R208	agent Arg1:T467 Arg2:T469
+R209	punct Arg1:T469 Arg2:T470
+R210	det Arg1:T475 Arg2:T471
+R211	amod Arg1:T475 Arg2:T472
+R212	nn Arg1:T475 Arg2:T473
+R213	nn Arg1:T475 Arg2:T474
+R214	appos Arg1:T469 Arg2:T475
+R215	punct Arg1:T475 Arg2:T476
+R216	appos Arg1:T469 Arg2:T480
+R217	conj_and Arg1:T475 Arg2:T480
+R218	prep_by Arg1:T475 Arg2:T481
+R219	punct Arg1:T467 Arg2:T482
+T570	che 1620 1623	ATP
+T571	che 1625 1628	ADP
+T572	che 1633 1664	adenosine 5'-O-(2-thiophosphate
+T573	che 1667 1675	ADPbetaS
+T574	ggp 1598 1609	P2 receptor
+T503	Token 1587 1591	When
+T504	Token 1592 1597	other
+T505	Token 1598 1600	P2
+T506	Token 1601 1609	receptor
+T507	Token 1610 1618	agonists
+T508	Token 1619 1620	(
+T509	Token 1620 1623	ATP
+T510	Token 1623 1624	,
+T511	Token 1625 1628	ADP
+T512	Token 1629 1632	and
+T513	Token 1633 1642	adenosine
+T514	Token 1643 1648	5'-O-
+T515	Token 1648 1649	(
+T516	Token 1649 1664	2-thiophosphate
+T517	Token 1664 1665	)
+T518	Token 1666 1667	(
+T519	Token 1667 1675	ADPbetaS
+T520	Token 1675 1676	)
+T521	Token 1676 1677	;
+T522	Token 1678 1681	all
+T523	Token 1682 1685	100
+T524	Token 1686 1692	microm
+T525	Token 1692 1693	)
+T526	Token 1694 1698	were
+T527	Token 1699 1706	applied
+T528	Token 1706 1707	,
+T529	Token 1708 1712	both
+T530	Token 1713 1726	proliferation
+T531	Token 1727 1730	and
+T532	Token 1731 1743	dopaminergic
+T533	Token 1744 1759	differentiation
+T534	Token 1760 1762	of
+T535	Token 1763 1767	NPCs
+T536	Token 1768 1772	were
+T537	Token 1773 1784	compromised
+T538	Token 1784 1785	.
+R220	advmod Arg1:T527 Arg2:T503
+R221	amod Arg1:T507 Arg2:T504
+R222	nn Arg1:T507 Arg2:T505
+R223	nn Arg1:T507 Arg2:T506
+R224	nsubjpass Arg1:T527 Arg2:T507
+R225	punct Arg1:T509 Arg2:T508
+R226	appos Arg1:T507 Arg2:T509
+R227	punct Arg1:T509 Arg2:T510
+R228	appos Arg1:T507 Arg2:T511
+R229	conj_and Arg1:T509 Arg2:T511
+R230	nn Arg1:T514 Arg2:T513
+R231	appos Arg1:T507 Arg2:T514
+R232	conj_and Arg1:T509 Arg2:T514
+R233	punct Arg1:T516 Arg2:T515
+R234	appos Arg1:T514 Arg2:T516
+R235	punct Arg1:T516 Arg2:T517
+R236	punct Arg1:T519 Arg2:T518
+R237	abbrev Arg1:T514 Arg2:T519
+R238	punct Arg1:T519 Arg2:T520
+R239	punct Arg1:T509 Arg2:T521
+R240	quantmod Arg1:T523 Arg2:T522
+R241	num Arg1:T524 Arg2:T523
+R242	dep Arg1:T509 Arg2:T524
+R243	punct Arg1:T509 Arg2:T525
+R244	auxpass Arg1:T527 Arg2:T526
+R245	advcl Arg1:T537 Arg2:T527
+R246	punct Arg1:T537 Arg2:T528
+R247	preconj Arg1:T530 Arg2:T529
+R248	nsubjpass Arg1:T537 Arg2:T530
+R249	amod Arg1:T533 Arg2:T532
+R250	conj_and Arg1:T530 Arg2:T533
+R251	nsubjpass Arg1:T537 Arg2:T533
+R252	prep_of Arg1:T530 Arg2:T535
+R253	auxpass Arg1:T537 Arg2:T536
+R254	punct Arg1:T537 Arg2:T538
+T626	org 1886 1891	human
+T627	che 1803 1809	uracil
+T628	che 1810 1821	nucleotides
+T629	ggp 1837 1848	P2 receptor
+T575	Token 1786 1788	We
+T576	Token 1789 1797	conclude
+T577	Token 1798 1802	that
+T578	Token 1803 1809	uracil
+T579	Token 1810 1821	nucleotides
+T580	Token 1822 1827	exert
+T581	Token 1828 1836	specific
+T582	Token 1837 1839	P2
+T583	Token 1840 1848	receptor
+T584	Token 1848 1849	-
+T585	Token 1849 1857	mediated
+T586	Token 1858 1865	effects
+T587	Token 1866 1868	on
+T588	Token 1869 1885	midbrain-derived
+T589	Token 1886 1891	human
+T590	Token 1892 1896	NPCs
+T591	Token 1896 1897	,
+T592	Token 1898 1901	and
+T593	Token 1902 1905	may
+T594	Token 1906 1908	be
+T595	Token 1909 1913	used
+T596	Token 1914 1916	to
+T597	Token 1917 1924	enhance
+T598	Token 1925 1929	both
+T599	Token 1930 1943	proliferation
+T600	Token 1944 1947	and
+T601	Token 1948 1960	dopaminergic
+T602	Token 1961 1976	differentiation
+T603	Token 1976 1977	.
+R255	nsubj Arg1:T576 Arg2:T575
+R256	complm Arg1:T580 Arg2:T577
+R257	nn Arg1:T579 Arg2:T578
+R258	nsubj Arg1:T580 Arg2:T579
+R259	nsubjpass Arg1:T595 Arg2:T579
+R260	ccomp Arg1:T576 Arg2:T580
+R261	amod Arg1:T586 Arg2:T581
+R262	nn Arg1:T586 Arg2:T582
+R263	amod Arg1:T586 Arg2:T585
+R264	dobj Arg1:T580 Arg2:T586
+R265	amod Arg1:T590 Arg2:T588
+R266	amod Arg1:T590 Arg2:T589
+R267	prep_on Arg1:T580 Arg2:T590
+R268	punct Arg1:T580 Arg2:T591
+R269	aux Arg1:T595 Arg2:T593
+R270	auxpass Arg1:T595 Arg2:T594
+R271	ccomp Arg1:T576 Arg2:T595
+R272	conj_and Arg1:T580 Arg2:T595
+R273	aux Arg1:T597 Arg2:T596
+R274	xcomp Arg1:T595 Arg2:T597
+R275	preconj Arg1:T599 Arg2:T598
+R276	dobj Arg1:T597 Arg2:T599
+R277	amod Arg1:T602 Arg2:T601
+R278	dobj Arg1:T597 Arg2:T602
+R279	conj_and Arg1:T599 Arg2:T602
+R280	punct Arg1:T576 Arg2:T603
+R281	hyphen Arg1:T585 Arg2:T583
