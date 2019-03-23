@@ -23,9 +23,10 @@
   </header>
   <div class="page-content">
     <div class="wrap">
-      <pre><code class="language-ann">{{ text }}
-{{ ann }}
+{% for d in data %}
+      <pre><code class="language-ann">{{ d }}
 </code></pre>
+{% endfor %}
     </div>
   </div>
   <footer class="site-footer">
