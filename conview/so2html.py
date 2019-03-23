@@ -15,6 +15,7 @@ from collections import defaultdict
 from itertools import chain
 from logging import warning
 from functools import cmp_to_key
+from cgi import escape
 
 from .namespace import expand_namespace
 
@@ -489,7 +490,7 @@ def _standoff_to_html(text, standoffs, legend, tooltips, links):
     open_span = set()
     while i < len(markers):        
         if o != markers[i].offset:
-            out.append(text[o:markers[i].offset])
+            out.append(escape(text[o:markers[i].offset]))
         o = markers[i].offset
         
         # collect markers opening or closing at this position and
@@ -542,7 +543,7 @@ def _standoff_to_html(text, standoffs, legend, tooltips, links):
             open_span.add(m.span)
                 
         i = last+1
-    out.append(text[o:])
+    out.append(escape(text[o:]))
 
     if legend_html:
         out = [legend_html] + out
@@ -714,12 +715,14 @@ def html_safe_string(s, encoding='utf-8'):
     return c
 
 
-def _header_html(css, links):
-    return """<!DOCTYPE html>
+def _header_html(css, links, embeddable=False):
+    html = []
+    if not embeddable:
+        html.append("""<!DOCTYPE html>
 <html>
 <head>
-%s
-<style type="text/css">
+%s""" % links)
+    html.append("""<style type="text/css">
 html {
   background-color: #eee;
   font-family: sans;
@@ -741,13 +744,18 @@ a.ann {
   text-decoration: none;
   color: inherit;
 }
-</style>
-</head>
-<body class="clearfix">""" % (links, BASE_LINE_HEIGHT, css)
+</style>""" % (BASE_LINE_HEIGHT, css))
+    if not embeddable:
+        html.append("""</head>
+<body class="clearfix">""")
+    return '\n'.join(html)
 
 
-def _trailer_html():
-    return """</body>
+def _trailer_html(embeddable=False):
+    if embeddable:
+        return ""
+    else:
+        return """</body>
 </html>"""
 
 
@@ -806,7 +814,8 @@ def oa_to_standoff(annotations, target_key='target'):
 
 
 def standoff_to_html(text, annotations, legend=True, tooltips=False,
-                     links=False, content_only=False, oa_annotations=False):
+                     links=False, content_only=False, oa_annotations=False,
+                     embeddable=False):
     """Create HTML representation of given text and annotations."""
     if oa_annotations:
         annotations = oa_to_standoff(annotations)
@@ -825,4 +834,5 @@ def standoff_to_html(text, annotations, legend=True, tooltips=False,
     else:
         links_string = '<link rel="stylesheet" href="static/css/hint.css">'
 
-    return (_header_html(css, links_string) + body +  _trailer_html())
+    return (_header_html(css, links_string, embeddable) + body +
+            _trailer_html(embeddable))
